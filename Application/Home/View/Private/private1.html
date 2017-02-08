@@ -1,0 +1,657 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <meta name="Description" content=" 私人定制 个性定制 旅游"/>
+    <!--<script type="text/javascript" src="__PUBLIC__/home/assets/797febb8/jquery.js"></script>-->
+    <script type="text/javascript" src="__PUBLIC__/admin/js/jquery-1.7.2.min.js"></script>
+
+    <title>看世界旅行</title>
+    <link rel="stylesheet" href="__PUBLIC__/home/css/home.css"/>
+    <script type="application/javascript" src="__PUBLIC__/home/js/json2.js"></script>
+    <script type="application/javascript" src="__PUBLIC__/home/js/json_parse.js"></script>
+    <script type="application/javascript" src="__PUBLIC__/home/js/json_parse_state.js"></script>
+    <script type="application/javascript" src="__PUBLIC__/home/js/cycle.js"></script>
+    <script type="application/javascript" src="__PUBLIC__/home/js/js.cookie.js"></script>
+    <script type="application/javascript" src="__PUBLIC__/home/js/jquery.form.min.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/admin/js/date.js"></script>
+</head>
+
+<body style="background: #f4f4f4">
+<div class="header">
+    <a href="{:U('Home/Index/index')}" class="logo"><img src="__PUBLIC__/home/images/logo.jpg" /></a>
+    <div class="navbar">
+        <ul>
+            <li><a href="{:U('Home/Index/index')}"  >首页</a></li>
+            <li><a href="{:U('Home/Private/private1')}" class="nav_active">私人定制</a></li>
+            <li><a href="{:U('Home/Service/service')}"
+            >服务项目</a>
+                <ul>
+                    <li><a href="{:U('Home/Service/service',['t_name'=>'酒店'])}">酒店预订</a></li>
+                    <li><a href="{:U('Home/Service/service',['t_name'=>'租车'])}">当地用车</a></li>
+                    <li><a href="{:U('Home/Service/service',['t_name'=>'剧院'])}">剧院预定</a></li>
+                    <li><a href="{:U('Home/Service/service',['t_name'=>'景点'])}">门票预订</a></li>
+                </ul>
+            </li>
+            <li><a href="{:U('Home/Travel/travel')}"
+            >旅行主题</a></li>
+            <li><a href="{:U('Home/Rec/rec')}"
+            >独家推荐</a></li>
+            <!--<li><a href="{:U('Home/About/about')}"-->
+            <!--&gt;关于我们</a></li>-->
+            <li><a class="wx_nav">联系我们
+                <div class="ewm">
+                    <img src="__PUBLIC__/home/images/ewm.jpg" width="85" height="85"> <span>扫描二维码<br>添加关注
+							</span>
+                </div>
+            </a></li>
+
+
+
+
+            <!--这是首页的登录和注册-->
+            <if condition="cookie_check() eq 1">
+                欢迎回来<?php echo $_COOKIE['username'];?>
+                <a href="{:U('Home/User/logout')}">退出登陆</a>
+                <else />
+                <a href="{:U('Home/User/login')}">免费注册</a>
+                <a href="{:U('Home/User/login')}">登录</a>
+            </if>
+
+
+
+        </ul>
+
+    </div>
+</div>
+<script src="__PUBLIC__/home/js/jquery.nicescroll.min.js"></script>
+<script>
+    var city_num = 0;
+    var intro_num = 0;
+    Cookies.set('day', 1);
+    Cookies.set('city_id_0', '');
+    Cookies.set('city_id_1', '');
+    Cookies.set('city_name_0', '');
+    Cookies.set('city_name_1', '');
+    Cookies.set('intro_id_0', '');
+    Cookies.set('intro_id_1', '');
+    Cookies.set('intro_name_0', '');
+    Cookies.set('intro_name_1', '');
+
+    $(function () {
+        var day = 1;
+        var inter = '';
+//        loadTab();
+//        $("#jingdian_nav").click(function(){
+//            $("#jingdian_nav img").attr("src","__PUBLIC__/home/images/jindian_1.png");
+//            $("#xingqu_nav img").attr("src","__PUBLIC__/home/images/qima.png");
+//            $("#tishi_wrap").css("display","__PUBLIC__/home/block");
+//            $("#xingqu_wrap").css("display","__PUBLIC__/home/none");
+//            $("#city_wrap").css("display","__PUBLIC__/home/none");
+//            $("#xingqu_det").css("display","__PUBLIC__/home/none");
+//        });
+
+        $("#city_nav_add").click(function () {
+            $("#city_wrap").css("display", "block");
+            $("#xingqu_wrap").css("display", "none");
+            $("#tishi_wrap").css("display", "none");
+            $("#xingqu_det").css("display", "none");
+            $('#xq_desc').css('display', 'none');
+//            $('#city_wrap').load('/index.php?r=line/getcity'+'&inter='+inter+'&rd='+Math.random());
+        });
+        $(".city_con a").click(function () {
+            $("#city_det").css("display", "block");
+            $(".city_con a").removeClass("active");
+            $(this).addClass("active");
+        });
+//        $("#jingdian_nav").click(function(){
+//            inter ='';
+//            $("#jingdian_nav img").attr("src","__PUBLIC__/home/images/jindian_1.png");
+//            $("#xingqu_nav img").attr("src","__PUBLIC__/home/images/qima.png");
+//            $("#tishi_wrap").css("display","block");
+//            $("#xingqu_wrap").css("display","none");
+//            $("#city_wrap").css("display","none");
+//        });
+//        $("#qima_nav").click(function(){
+//            $("#qima_nav img").attr("src","__PUBLIC__/home/images/qima_1.png");
+//            $("#gaoerfu_nav img").attr("src","__PUBLIC__/home/images/gaoerfu.png");
+//            $("#sheji_nav img").attr("src","__PUBLIC__/home/images/sheji.png");
+//
+//        });
+//        $("#gaoerfu_nav").click(function(){
+//            $("#gaoerfu_nav img").attr("src","__PUBLIC__/home/images/gaoerfu_1.png");
+//            $("#qima_nav img").attr("src","__PUBLIC__/home/images/qima.png");
+//            $("#sheji_nav img").attr("src","__PUBLIC__/home/images/sheji.png");
+//
+//
+//        });
+//        $("#sheji_nav").click(function(){
+//            $("#gaoerfu_nav img").attr("src","__PUBLIC__/home/images/gaoerfu.png");
+//            $("#qima_nav img").attr("src","__PUBLIC__/home/images/qima.png");
+//            $("#sheji_nav img").attr("src","__PUBLIC__/home/images/sheji_1.png");
+//        });
+
+        $("#xingqu_nav").click(function () {
+            if (city_num < 1) {
+                $('#xq').css('display', 'none');
+                alert('请先添加城市');
+                return false;
+            }
+
+            $("#jingdian_nav img").attr("src", "__PUBLIC__/home/images/jindian_1.png");
+            $("#xingqu_nav img").attr("src", "__PUBLIC__/home/images/qima.png");
+            $("#xingqu_wrap").css("display", "block");
+            $('#xq').css('display', 'block');
+            $.ajax({
+                url: '{:U("Home/Private/inters")}',
+                type: 'get',
+                data: {'c_id': Cookies.get('city_id_0')},
+                dataType: 'json',
+                success: function (res) {
+                    console.log(res[1]);
+                    $('#xq').children().remove();
+                    for (var i = 0; i < res.length; i++) {
+                        $('#xq').append('<a href="javascript:inter_show(' + res[i].i_id + ')" class="xq" id="4">' +
+                                '<img src="__ROOT__/'+res[i].i_src+'">' +
+                                '<span>' + res[i].i_name + '</span></a>')
+                    }
+
+                }
+
+            })
+
+            $("#tishi_wrap").css("display", "none");
+            $("#city_wrap").css("display", "none");
+            $('#xq_desc').css('display', 'none');
+        });
+
+        $("#xingqu_wrap a").click(function () {
+            $("#xingqu_det").css("display", "block");
+            $("#city_det").css("display", "none");
+        });
+        $('.lx_opt').click(function () {
+            var obj = $('#pl_days');
+            var day = parseInt(obj.val());
+            if ($(this).hasClass('lx-icon-minus'))
+                day = day - 1;
+            else
+                day = day + 1;
+            console.log(day);
+            if (day > 10) {
+                alert('最多不能超过10天');
+                day = 10;
+            }
+
+            if (day < 1)
+                day = 1;
+            Cookies.set('day', day);
+            obj.val(day);
+        });
+//        $('.xq').click(function () {
+//            inter = $(this).attr('id');
+//            Cookies.set('inter_id',inter);
+//            $(this).addClass('img_active');
+////           $('#xq_desc').load('/index.php?r=line/getinterest'+'&id='+inter+'&rd='+Math.random());
+//        });
+    });
+
+    function inter_show(id) {
+        $.ajax({
+            url: "{:U('Home/Private/inter')}",
+            type: "get",
+            data: {'i_id': id},
+            dataType: 'json',
+            success: function (res) {
+                var name = res.i_name;
+                var id = res.i_id;
+                $('#xq_desc').html("<h1>" + res.i_intro + "</h1>" + '<a href="javascript:intro_add(\'' + name + '\',' + id + ')" ' +
+                        'class="city_det_btn" id="intro_det_btn">兴趣添加</a>');
+                $('#xq_desc').css('display', 'block');
+            }
+        });
+    }
+
+    function show_city(id) {
+//        $('#xq_desc').load('/index.php?r=line/citydesc'+'&id='+id+'&rd='+Math.random());
+        $.ajax({
+            url: "{:U('Home/Private/city')}",
+            type: "get",
+            data: {'city_id': id},
+            dataType: 'json',
+            success: function (res) {
+
+                var name = res.city_name;
+                var id = res.city_id;
+//                console.log(name);
+                $('#xq_desc').css('display', 'block');
+                $('#xq_desc').html("<div id='city_info' style='margin-top: 30px;margin-left: 20px; padding-right:20px;text-indent:30px;word-break:break-all overflow: auto;height: 500px'>" + res.city_info + "</div>" + '<a href="javascript:city_add(\'' + name + '\',' + id + ')" ' +
+                        'class="city_det_btn" id="city_det_btn">添加城市</a>');
+                $("#city_info").niceScroll({styler: "fb", cursorcolor: "#ddd"});
+
+//                $('#xq_desc').append('<a href="javascript:city_add(\''+name+'\','+id+')" ' +
+//                        'class="city_det_btn" id="city_det_btn">添加城市</a>');
+            }
+        });
+    }
+    function city_add(name, id) {
+        if (city_num >= 1) {
+            alert('最多添加1个城市');
+            return false;
+        }
+        if (Cookies.get('city_id_0') == id || Cookies.get('city_id_1') == id) {
+            alert('不能重复添加城市');
+            return false;
+        }
+        if (Cookies.get('city_id_0') == '') {
+            Cookies.set('city_id_0', id);
+            Cookies.set('city_name_0', name);
+        }
+//        else{
+//            Cookies.set('city_id_1',id);
+//            Cookies.set('city_name_1',name);
+//        }
+        $("#city_nav_add").css('display', 'none');
+        $("#city_nav_add").parent(this).append('<div class="lx-round-jindian"><span>' + name + '</span><a href="javascript:;" class="lx-round-jindian-del" onclick="' + 'rm(this,' + id + ')">x</a></div>');
+        city_num++;
+
+    }
+    function intro_add(name, id) {
+        if (intro_num > 1) {
+            alert('最多添加2项兴趣');
+            return false;
+        }
+        if (Cookies.get('intro_id_0') == id || Cookies.get('intro_id_1') == id) {
+            alert('不能重复添加兴趣');
+            return false;
+        }
+        if (Cookies.get('intro_id_0') == '') {
+            Cookies.set('intro_id_0', id);
+            Cookies.set('intro_name_0', name);
+        } else {
+            Cookies.set('intro_id_1', id);
+            Cookies.set('intro_name_1', name);
+        }
+        $("#xingqu_nav").css('display', 'none');
+        $('#lx-lab-leixing-city2').append('<div class="lx-round-jindian" ><span>' + name + '</span><a href="javascript:;" class="lx-round-jindian-del" onclick="' + 'rm_intro(this,' + id + ')">x</a></div>');
+        intro_num++;
+    }
+    function rm(obj, id) {
+        if (Cookies.get('city_id_0') == id) {
+            Cookies.set('city_id_0', '');
+            Cookies.set('city_name_0', '');
+        }
+        else {
+            Cookies.set('city_id_1', '');
+            Cookies.set('city_name_1', '');
+        }
+        city_num--;
+        $("#city_nav_add").css('display', 'block');
+        $(obj).parent().remove();
+    }
+    function rm_intro(obj, id) {
+        if (Cookies.get('intro_id_0') == id) {
+            Cookies.set('intro_id_0', '');
+            Cookies.set('intro_name_0', '');
+        } else {
+            Cookies.set('intro_id_1', '');
+            Cookies.set('intro_name_1', '');
+        }
+        console.log(id);
+        console.log(Cookies.get('intro_id_0'));
+        console.log(Cookies.get('intro_name_0'));
+        console.log(Cookies.get('intro_id_1'));
+        intro_num--;
+        if (intro_num != 0) {
+            $(obj).parent().remove();
+        } else {
+            $(obj).parent().remove();
+            $("#xingqu_nav").css('display', 'block');
+        }
+    }
+</script>
+<script>
+
+    $(document).ready(function () {
+        //$("html").niceScroll({styler:"fb",cursorcolor:"#000"});
+        $("#lx-lab-leixing-city").niceScroll({styler: "fb", cursorcolor: "#ddd"});
+        $("#city_det_con").niceScroll({styler: "fb", cursorcolor: "#ddd"});
+        $("#city_con").niceScroll({styler: "fb", cursorcolor: "#ddd"});
+        $("#xingqu_det_con").niceScroll({styler: "fb", cursorcolor: "#ddd"});
+    });
+</script>
+<script type="text/javascript">
+    $(function () {
+        $('#date_picker').date_input();
+    })
+
+</script>
+<script src="__PUBLIC__/home/js/tabScript.js" type="text/javascript"></script>
+<div class="per_travel">
+    <div class="per_travel_tit">私人定制&nbsp;<span>— Personal Tailor  </span></div>
+    <div class="wrap1000">
+        <div class="left">
+            <div class="tab1_1 tab1">
+                <div class="lx-dingzhi-xianlu">
+                    <div class="lx-dingzhi-title">
+                        <span class="lx-current-xianlu">基本线路</span>
+                        <!--<span>线路规则</span>-->
+                    </div>
+
+                    <div class="lx-lab-leixing">
+                        <h3>请选择游玩城市</h3>
+                        <div class=" lx-lab-leixing-city">
+                            <div class="lx-round-jindian lx-round-jindian-add" id="city_nav_add">
+                                +
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="lx-lab-leixing">
+                        <h3>请选择要定制的线路类型</h3>
+
+                        <div class="lx-lab-leixing-city" id="lx-lab-leixing-city2">
+                            <!--<div id="jingdian_nav">-->
+                            <!--<img src="__PUBLIC__/home/images/jindian_1.png"/>-->
+                            <!--<span>景点</span>-->
+                            <!--</div>-->
+                            <div id="xingqu_nav">
+                                <!--<img src="__PUBLIC__/home/images/qima.png"/>-->
+                                <!--<span>兴趣 </span>-->
+                                <div class="lx-round-jindian lx-round-jindian-add">
+                                    +
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="lx-lab-leixing">
+                        <h3>请选择出行时间及计划天数</h3>
+                        <div class="lx-day-box" style="padding-left: 30px;">
+                            <input type="text" name="start_day" id="date_picker" readonly placeholder="出行时间"
+                                   style="font-size: 10px;margin-left: -30px; "/>
+                            <div class="lx-icon-minus lx_opt" style="margin-left: 20px;"></div>
+                            <input type="text" disabled="disabled" name="pl_days" id="pl_days" value="1"/>
+                            <div class="lx-icon-plus lx_opt"></div>
+
+                        </div>
+                    </div>
+                </div>
+                <a href="javascript:;"><input type="button" name="" id="bt_next" class="clear lx-xianlu-next"
+                                              value="下一步"/></a>
+            </div>
+        </div>
+
+        <div class="center">
+            <div class="tishi_wrap" id="tishi_wrap">
+                <span>← 请点击左侧选择</span>
+            </div>
+
+            <div id="xingqu_wrap" style="display:none">
+                <h2>兴趣类型</h2>
+                <div class="interest_con" id="interest_con">
+                    <div class="interest_list" id="xq">
+                        <!--<a href="javascript:;" class="xq" id="4"><img src="__PUBLIC__/home/upload/attached/thumb/20161102/58194595111ab.jpg"><span>美食</span></a>-->
+                        <!--<a href="javascript:;" class="xq" id="5"><img src="__PUBLIC__/home/upload/attached/thumb/20160907/57cf90e717dc1.png"><span>文化</span></a>-->
+                        <!--<a href="javascript:;" class="xq" id="6"><img src="__PUBLIC__/home/upload/attached/thumb/20160907/57cf90f37356d.png"><span>游学</span></a>-->
+                        <!--<a href="javascript:;" class="xq" id="7"><img src="__PUBLIC__/home/upload/attached/thumb/20160907/57cf90fee3e72.png"><span>旅游</span></a>-->
+                        <!--<div class="clear"></div>-->
+                    </div>
+                </div>
+            </div>
+            <div id="city_wrap" style="display:none">
+                <h2>热门城市</h2>
+                <div class="interest_list">
+                    <foreach name="citys" item="city">
+                        <a href="javascript:;" class="xq" name="{$city['city_id']}" onclick="show_city(this.name)"><img
+                                src="__ROOT__/{$city['city_src']}"><span>{$city['city_name']}</span></a>
+                    </foreach>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="right">
+        <div class="city_det" id="xq_desc">
+
+        </div>
+
+
+    </div>
+</div>
+</div>
+
+<script type="application/javascript">
+
+    $(document).ready(function () {
+        $('#bt_next').click(function () {
+            Cookies.set('start_day', $('#date_picker').val());
+            console.log(Cookies.get('start_day'));
+            if (city_num < 1)
+                alert('请先选则游玩城市');
+            else if (intro_num < 1) {
+                alert('请选择线路类型');
+            } else if (Cookies.get('start_day') == '') {
+                alert('请选择出行时间');
+            } else
+                location.href = "{:U('Home/Private/private2')}";
+
+        })
+
+    })
+</script>
+
+<div class="footer">
+    <div class="wrap1000">
+        <div class="list-type-footer">
+            <h3>旅行</h3>
+            <ul>
+                <li><a href="#">商务旅行</a></li>
+                <li><a href="#">主题旅行</a></li>
+                <li><a href="#">文化旅行</a></li>
+                <li><a href="#">经典线路游</a></li>
+            </ul>
+        </div>
+        <div class="list-type-footer">
+            <h3>教育</h3>
+            <ul>
+                <li><a href="#">企业（名校）培训</a></li>
+                <li><a href="#">贵族学校推荐学习</a></li>
+                <li><a href="#">企业家EMBA培训</a></li>
+                <li><a href="#">青少年夏（冬）令营</a></li>
+            </ul>
+        </div>
+        <div class="list-type-footer">
+            <h3>时尚之旅</h3>
+            <ul>
+                <li><a href="#">经典品牌导航</a></li>
+                <li><a href="#">淘宝藏品发掘</a></li>
+                <li><a href="#">古玩文玩淘宝</a></li>
+            </ul>
+        </div>
+        <div class="list-type-footer list-type-footer1">
+            <h3>商务</h3>
+            <ul>
+                <li><a href="#">商业投资</a></li>
+                <li><a href="#">商务考察</a></li>
+                <li><a href="#">品牌推广</a></li>
+            </ul>
+        </div>
+        <div class="ewm">
+            <img src="__PUBLIC__/home/images/ewm.jpg" width="85" height="85"> <span>扫描二维码<br>添加关注
+				</span>
+        </div>
+
+    </div>
+    <div class="clear"></div>
+</div>
+<div class="footer1">
+    <div class="footer1_nav">
+        <a href="{:U('Home/Index/index')}">首页</a>|<a href="{:U('Home/Travel/travel')}">主题线路</a>|<a
+            href="{:U('Home/Rec/rec')}">独家推荐</a>|<a href="{:U('Home/About/about')}">关于我们</a>
+    </div>
+    <p>
+        北京市昌平区瑶光路 <br>电话：15553572753 &nbsp;&nbsp;
+        Email: junhe2333@gmail.com
+    </p>
+</div>
+</body>
+</html>
+
+
+<style type="text/css">
+
+    /*---------------------------------------demo css--------------------------------------------*/
+    .date_selector, .date_selector * {
+        width: auto;
+        height: auto;
+        border: none;
+        background: none;
+        margin: 0;
+        padding: 0;
+        text-align: left;
+        text-decoration: none;
+    }
+
+    .date_selector {
+        background: #fbfbfb;
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin: 0;
+        margin-top: -1px;
+        position: absolute;
+        z-index: 100000;
+        display: none;
+        border-radius: 3px;
+        box-shadow: 0 0 5px #aaa;
+        box-shadow: 0 2px 2px #ccc;
+        width: 270px;
+    }
+
+    .date_selector_ieframe {
+        position: absolute;
+        z-index: 99999;
+        display: none;
+    }
+
+    .date_selector .nav {
+        width: 16em;
+    }
+
+    .date_selector .nav p {
+        clear: none;
+    }
+
+    .date_selector .month_nav, .date_selector .year_nav {
+        margin: 0 0 3px 0;
+        padding: 0;
+        display: block;
+        position: relative;
+        text-align: center;
+    }
+
+    .date_selector .month_nav {
+        float: left;
+        width: 55%;
+    }
+
+    .date_selector .year_nav {
+        float: right;
+        width: 42%;
+        margin-right: -8px;
+    }
+
+    .date_selector .month_name, .date_selector .year_name {
+        font-weight: bold;
+        line-height: 20px;
+    }
+
+    .date_selector .button {
+        display: block;
+        position: absolute;
+        top: 0;
+        width: 18px;
+        height: 18px;
+        line-height: 16px;
+        font-weight: bold;
+        color: #5985c7;
+        text-align: center;
+        font-size: 12px;
+        overflow: hidden;
+        border: 1px solid #ccc;
+        border-radius: 2px;
+    }
+
+    .date_selector .button:hover, .date_selector .button.hover {
+        background: #5985c7;
+        color: #fff;
+        cursor: pointer;
+        border-color: #3a930d;
+    }
+
+    .date_selector .prev {
+        left: 0;
+    }
+
+    .date_selector .next {
+        right: 0;
+    }
+
+    .date_selector table {
+        border-spacing: 0;
+        border-collapse: collapse;
+        clear: both;
+        margin: 0;
+        width: 220px;
+    }
+
+    .date_selector th, .date_selector td {
+        width: 2.5em;
+        height: 2em;
+        padding: 0 !important;
+        text-align: center !important;
+        color: #666;
+        font-weight: normal;
+    }
+
+    .date_selector th {
+        font-size: 12px;
+    }
+
+    .date_selector td {
+        border: 1px solid #f1f1f1;
+        line-height: 2em;
+        text-align: center;
+        white-space: nowrap;
+        color: #5985c7;
+        background: #fff;
+    }
+
+    .date_selector td.today {
+        background: #eee;
+    }
+
+    .date_selector td.unselected_month {
+        color: #ccc;
+    }
+
+    .date_selector td.selectable_day {
+        cursor: pointer;
+    }
+
+    .date_selector td.selected {
+        background: #2b579a;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    .date_selector td.selectable_day:hover, .date_selector td.selectable_day.hover {
+        background: #5985c7;
+        color: #fff;
+    }
+
+    /*-----------------------------------------------------------------------------------*/
+</style>

@@ -1,0 +1,162 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="Description" content="私人定制 个性定制 旅游" />
+<script type="text/javascript" src="__PUBLIC__/home/assets/797febb8/jquery.js"></script>
+<title>看世界旅行</title>
+<link rel="stylesheet" href="__PUBLIC__/home/css/home.css" />
+<script type="application/javascript" src="__PUBLIC__/home/js/json2.js"></script>
+<script type="application/javascript" src="__PUBLIC__/home/js/json_parse.js"></script>
+<script type="application/javascript" src="__PUBLIC__/home/js/json_parse_state.js"></script>
+<script type="application/javascript" src="__PUBLIC__/home/js/cycle.js"></script>
+<script type="application/javascript" src="__PUBLIC__/home/js/js.cookie.js"></script>
+<script type="application/javascript" src="__PUBLIC__/home/js/jquery.form.min.js"></script>
+</head>
+<body style="background: #f4f4f4">
+<div class="header">
+	<a href="{:U('Home/Index/index')}" class="logo"><img src="__PUBLIC__/home/images/logo.jpg" /></a>
+	<div class="navbar">
+		<ul>
+			<li><a href="{:U('Home/Index/index')}"  >首页</a></li>
+			<li><a href="{:U('Home/Private/private1')}" >私人定制</a></li>
+			<li><a href="{:U('Home/Service/service')}"
+			>服务项目</a>
+				<ul>
+					<li><a href="{:U('Home/Service/service',['t_name'=>'酒店'])}">酒店预订</a></li>
+					<li><a href="{:U('Home/Service/service',['t_name'=>'租车'])}">当地用车</a></li>
+					<li><a href="{:U('Home/Service/service',['t_name'=>'剧院'])}">剧院预定</a></li>
+					<li><a href="{:U('Home/Service/service',['t_name'=>'景点'])}">门票预订</a></li>
+				</ul>
+			</li>
+			<li><a href="{:U('Home/Travel/travel')}"
+			>旅行主题</a></li>
+			<li><a href="{:U('Home/Rec/rec')}" class="nav_active"
+			>独家推荐</a></li>
+			<!--<li><a href="{:U('Home/About/about')}"-->
+			<!--&gt;关于我们</a></li>-->
+			<li><a class="wx_nav">联系我们
+				<div class="ewm">
+					<img src="__PUBLIC__/home/images/ewm.jpg" width="85" height="85"> <span>扫描二维码<br>添加关注
+							</span>
+				</div>
+			</a></li>
+
+
+
+
+			<!--这是首页的登录和注册-->
+			<if condition="cookie_check() eq 1">
+				欢迎回来<?php echo $_COOKIE['username'];?>
+				<a href="{:U('Home/User/logout')}">退出登陆</a>
+				<else />
+				<a href="{:U('Home/User/login')}">免费注册</a>
+				<a href="{:U('Home/User/login')}">登录</a>
+			</if>
+
+
+
+		</ul>
+
+	</div>
+</div>
+<div class="pro_list new_list">
+	<div class="wrap1000">
+		<div class="crumbs">
+			<a href="{:U('Home/Index/index')}">首页</a> &gt;<a href="{:U('Home/Rec/rec',['rec_id'=>$rid])}">{$rname}</a>>{$art[a_name]}
+		</div>
+		<div class="wrap_left">
+			<div class="new_det">
+				<h2 >{$art[a_name]}</h2>
+				<div class="tag">
+					<!-- JiaThis Button BEGIN -->
+					<div class="jiathis_style_16x16"
+						style="margin-top: 15px; float: left">
+						<a href="http://www.jiathis.com/share"
+							class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"
+							style="background: url('css/images/share_icon.jpg') 0px 0px no-repeat; color: #666; font-size: 14px; line-height: 15px; padding-left: 25px;">分享</a>
+					</div>
+					<script type="text/javascript"
+						src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+					<!-- JiaThis Button END -->
+					<span class="pub_time">{$art[pubtime]|date="Y-m-d H:i:s",###}</span>
+					<div class="clear"></div>
+				</div>
+				<div class="new_det_text" style="margin-top: 20px;">
+					{$art[a_content]|htmlspecialchars_decode}
+		</div>
+			</div>
+
+		</div>
+		<div class="wrap_right">
+			<div class='new_top'><h3>独家推荐排行榜</h3>
+				<ul>
+					<div class="new_top_1"><a href="{:U('Home/Rec/art',['a_id'=>$rank[a_id]])}"><img
+							src="__ROOT__/{$rank[a_img]}">
+						<p>{$rank[a_name]}</p></a></div>
+					<foreach name="dashi" item="da">
+						<li style="overflow: hidden;white-space: nowrap;text-overflow: ellipsis;"><a  href="{:U('Home/Rec/art',['a_id'=>$da[a_id]])}" title="{$da[a_name]}">{$da[a_name]}</a></li>
+					</foreach>
+
+				</ul>
+			</div>       </div>
+		<div class="clear"></div>
+	</div>
+</div>
+<div class="footer">
+	<div class="wrap1000">
+		<div class="list-type-footer">
+			<h3>旅行</h3>
+			<ul>
+				<li><a href="#">商务旅行</a></li>
+				<li><a href="#">主题旅行</a></li>
+				<li><a href="#">文化旅行</a></li>
+				<li><a href="#">经典线路游</a></li>
+			</ul>
+		</div>
+		<div class="list-type-footer">
+			<h3>教育</h3>
+			<ul>
+				<li><a href="#">企业（名校）培训</a></li>
+				<li><a href="#">贵族学校推荐学习</a></li>
+				<li><a href="#">企业家EMBA培训</a></li>
+				<li><a href="#">青少年夏（冬）令营</a></li>
+			</ul>
+		</div>
+		<div class="list-type-footer">
+			<h3>时尚之旅</h3>
+			<ul>
+				<li><a href="#">经典品牌导航</a></li>
+				<li><a href="#">淘宝藏品发掘</a></li>
+				<li><a href="#">古玩文玩淘宝</a></li>
+			</ul>
+		</div>
+		<div class="list-type-footer list-type-footer1">
+			<h3>商务</h3>
+			<ul>
+				<li><a href="#">商业投资</a></li>
+				<li><a href="#">商务考察</a></li>
+				<li><a href="#">品牌推广</a></li>
+			</ul>
+		</div>
+		<div class="ewm">
+			<img src="__PUBLIC__/home/images/ewm.jpg" width="85" height="85"> <span>扫描二维码<br>添加关注
+				</span>
+		</div>
+
+	</div>
+	<div class="clear"></div>
+</div>
+<div class="footer1">
+	<div class="footer1_nav">
+		<a href="{:U('Home/Index/index')}">首页</a>|<a href="{:U('Home/Travel/travel')}">主题线路</a>|<a
+			href="{:U('Home/Rec/rec')}">独家推荐</a>|<a href="{:U('Home/About/about')}">关于我们</a>
+	</div>
+	<p>
+		北京市昌平区瑶光路 <br>电话：15553572753 &nbsp;&nbsp;
+		Email: junhe2333@gmail.com
+	</p>
+</div>
+</body>
+</html>
+

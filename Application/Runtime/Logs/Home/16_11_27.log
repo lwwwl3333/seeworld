@@ -1,0 +1,1651 @@
+[ 2016-11-27T18:24:54+08:00 ] 192.168.2.210 /seeworld222/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+SQL: SHOW COLUMNS FROM `lunbo` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `lunbo` WHERE ( lun_show=1 ) ORDER BY lun_id desc LIMIT 0,3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `travel` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `travel` WHERE ( is_vip=1 ) ORDER BY tra_id desc LIMIT 0,4   [ RunTime:0.0018s ]
+SQL: SELECT * FROM `travel` ORDER BY tra_id desc LIMIT 0,4   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `article` WHERE ( a_status=1 ) ORDER BY a_id desc LIMIT 0,4   [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000303s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000373s ]
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 45 行.
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 118 行.
+NOTIC: [8] Use of undefined constant lun_path - assumed 'lun_path' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 119 行.
+NOTIC: [8] Use of undefined constant tra_id - assumed 'tra_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 148 行.
+NOTIC: [8] Use of undefined constant tra_thumb - assumed 'tra_thumb' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 149 行.
+NOTIC: [8] Use of undefined constant tra_name - assumed 'tra_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [8] Use of undefined constant tra_id - assumed 'tra_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 164 行.
+NOTIC: [8] Use of undefined constant tra_thumb - assumed 'tra_thumb' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 165 行.
+NOTIC: [8] Use of undefined constant tra_name - assumed 'tra_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Use of undefined constant tra_price - assumed 'tra_price' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 168 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018744s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018808s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000873s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000965s ]
+
+[ 2016-11-27T18:24:54+08:00 ] 192.168.2.210 /seeworld222/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000560s ]
+SQL: SHOW COLUMNS FROM `lunbo` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `lunbo` WHERE ( lun_show=1 ) ORDER BY lun_id desc LIMIT 0,3   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `travel` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `travel` WHERE ( is_vip=1 ) ORDER BY tra_id desc LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `travel` ORDER BY tra_id desc LIMIT 0,4   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `article` WHERE ( a_status=1 ) ORDER BY a_id desc LIMIT 0,4   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000275s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000348s ]
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 45 行.
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 118 行.
+NOTIC: [8] Use of undefined constant lun_path - assumed 'lun_path' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 119 行.
+NOTIC: [8] Use of undefined constant tra_id - assumed 'tra_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 148 行.
+NOTIC: [8] Use of undefined constant tra_thumb - assumed 'tra_thumb' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 149 行.
+NOTIC: [8] Use of undefined constant tra_name - assumed 'tra_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [8] Use of undefined constant tra_id - assumed 'tra_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 164 行.
+NOTIC: [8] Use of undefined constant tra_thumb - assumed 'tra_thumb' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 165 行.
+NOTIC: [8] Use of undefined constant tra_name - assumed 'tra_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Use of undefined constant tra_price - assumed 'tra_price' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 168 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015241s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000571s ]
+
+[ 2016-11-27T18:25:07+08:00 ] 192.168.2.210 /seeworld222/index.php/Home/Service/service/coun_id/1/city_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+SQL: SHOW COLUMNS FROM `country` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `country`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `city`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `service`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `city` WHERE ( coun_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `type` WHERE ( coun_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `service` WHERE ( coun_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `type` WHERE ( city_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `service` WHERE ( city_id=1 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+NOTIC: [8] Undefined variable: page /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/b17d78e560f31b3a0a3fc331cbe1b539.php 第 130 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013309s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013364s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000531s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001141s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001221s ]
+
+[ 2016-11-27T18:25:08+08:00 ] 192.168.2.210 /seeworld222/index.php/Home/Service/service.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002008s ]
+SQL: SHOW COLUMNS FROM `country` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `country`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `city`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `service`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+NOTIC: [8] Undefined variable: page /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/b17d78e560f31b3a0a3fc331cbe1b539.php 第 130 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013411s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013458s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000161s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000199s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000542s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000588s ]
+
+[ 2016-11-27T18:25:09+08:00 ] 192.168.2.210 /seeworld222/index.php/Home/Travel/travel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002328s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004853s ]
+SQL: SHOW COLUMNS FROM `travel` [ RunTime:0.0031s ]
+SQL: SELECT travel.*,`cat_name` FROM `travel` INNER JOIN cat  ON  travel.cat_id = cat.cat_id    [ RunTime:0.0033s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: cat_id /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/TravelController.class.php 第 17 行.
+SQL: SELECT * FROM `cat` LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: cat_id /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/TravelController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000202s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000302s ]
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/67dd6de476508246a7963789e19e945e.php 第 31 行.
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/67dd6de476508246a7963789e19e945e.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019785s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019857s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000750s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000818s ]
+
+[ 2016-11-27T18:25:09+08:00 ] 192.168.2.210 /seeworld222/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000856s ]
+SQL: SHOW COLUMNS FROM `lunbo` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `lunbo` WHERE ( lun_show=1 ) ORDER BY lun_id desc LIMIT 0,3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `travel` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `travel` WHERE ( is_vip=1 ) ORDER BY tra_id desc LIMIT 0,4   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `travel` ORDER BY tra_id desc LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `article` WHERE ( a_status=1 ) ORDER BY a_id desc LIMIT 0,4   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000463s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000591s ]
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 45 行.
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 118 行.
+NOTIC: [8] Use of undefined constant lun_path - assumed 'lun_path' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 119 行.
+NOTIC: [8] Use of undefined constant tra_id - assumed 'tra_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 148 行.
+NOTIC: [8] Use of undefined constant tra_thumb - assumed 'tra_thumb' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 149 行.
+NOTIC: [8] Use of undefined constant tra_name - assumed 'tra_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [8] Use of undefined constant tra_id - assumed 'tra_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 164 行.
+NOTIC: [8] Use of undefined constant tra_thumb - assumed 'tra_thumb' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 165 行.
+NOTIC: [8] Use of undefined constant tra_name - assumed 'tra_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Use of undefined constant tra_price - assumed 'tra_price' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 168 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025845s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025913s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001133s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001231s ]
+
+[ 2016-11-27T18:25:09+08:00 ] 192.168.2.210 /seeworld222/index.php/Home/Rec/rec.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+SQL: SHOW COLUMNS FROM `rec` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `rec`  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `article`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `article` ORDER BY a_click desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `article` ORDER BY a_click desc LIMIT 1,3   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: rec_id /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/RecController.class.php 第 24 行.
+SQL: SELECT * FROM `rec` WHERE `rec_id` = 0 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: rec_id /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/RecController.class.php 第 31 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 31 行.
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 32 行.
+NOTIC: [8] Use of undefined constant rec_id - assumed 'rec_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 63 行.
+NOTIC: [8] Use of undefined constant rec_name - assumed 'rec_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 63 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 72 行.
+NOTIC: [8] Use of undefined constant a_img - assumed 'a_img' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 74 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 78 行.
+NOTIC: [8] Use of undefined constant a_name - assumed 'a_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 78 行.
+NOTIC: [8] Use of undefined constant a_intro - assumed 'a_intro' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 80 行.
+NOTIC: [8] Use of undefined constant pubtime - assumed 'pubtime' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 92 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 72 行.
+NOTIC: [8] Use of undefined constant a_img - assumed 'a_img' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 74 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 78 行.
+NOTIC: [8] Use of undefined constant a_name - assumed 'a_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 78 行.
+NOTIC: [8] Use of undefined constant a_intro - assumed 'a_intro' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 80 行.
+NOTIC: [8] Use of undefined constant pubtime - assumed 'pubtime' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 92 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 72 行.
+NOTIC: [8] Use of undefined constant a_img - assumed 'a_img' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 74 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 78 行.
+NOTIC: [8] Use of undefined constant a_name - assumed 'a_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 78 行.
+NOTIC: [8] Use of undefined constant a_intro - assumed 'a_intro' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 80 行.
+NOTIC: [8] Use of undefined constant pubtime - assumed 'pubtime' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 92 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 72 行.
+NOTIC: [8] Use of undefined constant a_img - assumed 'a_img' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 74 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 78 行.
+NOTIC: [8] Use of undefined constant a_name - assumed 'a_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 78 行.
+NOTIC: [8] Use of undefined constant a_intro - assumed 'a_intro' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 80 行.
+NOTIC: [8] Use of undefined constant pubtime - assumed 'pubtime' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 92 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 72 行.
+NOTIC: [8] Use of undefined constant a_img - assumed 'a_img' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 74 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 78 行.
+NOTIC: [8] Use of undefined constant a_name - assumed 'a_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 78 行.
+NOTIC: [8] Use of undefined constant a_intro - assumed 'a_intro' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 80 行.
+NOTIC: [8] Use of undefined constant pubtime - assumed 'pubtime' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 92 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 72 行.
+NOTIC: [8] Use of undefined constant a_img - assumed 'a_img' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 74 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 78 行.
+NOTIC: [8] Use of undefined constant a_name - assumed 'a_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 78 行.
+NOTIC: [8] Use of undefined constant a_intro - assumed 'a_intro' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 80 行.
+NOTIC: [8] Use of undefined constant pubtime - assumed 'pubtime' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 92 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 108 行.
+NOTIC: [8] Use of undefined constant a_img - assumed 'a_img' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 109 行.
+NOTIC: [8] Use of undefined constant a_name - assumed 'a_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 110 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 111 行.
+NOTIC: [8] Use of undefined constant a_name - assumed 'a_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 111 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 111 行.
+NOTIC: [8] Use of undefined constant a_name - assumed 'a_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 111 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 111 行.
+NOTIC: [8] Use of undefined constant a_name - assumed 'a_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 111 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011361s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011411s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000170s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000561s ]
+
+[ 2016-11-27T18:25:09+08:00 ] 192.168.2.210 /seeworld222/index.php/Home/Rec/images/ewm.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+
+[ 2016-11-27T18:25:09+08:00 ] 192.168.2.210 /seeworld222/index.php/Home/Rec/css/images/share_icon.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+
+[ 2016-11-27T18:25:15+08:00 ] 192.168.2.210 /seeworld222/index.php/Home/About/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008029s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008084s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000708s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000790s ]
+
+[ 2016-11-27T18:25:16+08:00 ] 192.168.2.210 /seeworld222/index.php/Home/About/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+
+[ 2016-11-27T18:25:18+08:00 ] 192.168.2.210 /seeworld222/index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000508s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0285s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009069s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000567s ]
+
+[ 2016-11-27T18:25:18+08:00 ] 192.168.2.210 /seeworld222/index.php/Home/User/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0012s ]
+ERR: 非法操作:jquery.js
+
+[ 2016-11-27T18:25:18+08:00 ] 192.168.2.210 /seeworld222/index.php/Home/User/userVerify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001104s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001936s ]
+
+[ 2016-11-27T18:25:18+08:00 ] 192.168.2.210 /seeworld222/index.php/Home/User/jquery.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+ERR: 非法操作:jquery.js
+
+[ 2016-11-27T18:25:28+08:00 ] 192.168.2.210 /seeworld222/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+SQL: SHOW COLUMNS FROM `lunbo` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `lunbo` WHERE ( lun_show=1 ) ORDER BY lun_id desc LIMIT 0,3   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `travel` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `travel` WHERE ( is_vip=1 ) ORDER BY tra_id desc LIMIT 0,4   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `travel` ORDER BY tra_id desc LIMIT 0,4   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `article` WHERE ( a_status=1 ) ORDER BY a_id desc LIMIT 0,4   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000298s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000363s ]
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 45 行.
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 118 行.
+NOTIC: [8] Use of undefined constant lun_path - assumed 'lun_path' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 119 行.
+NOTIC: [8] Use of undefined constant tra_id - assumed 'tra_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 148 行.
+NOTIC: [8] Use of undefined constant tra_thumb - assumed 'tra_thumb' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 149 行.
+NOTIC: [8] Use of undefined constant tra_name - assumed 'tra_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [8] Use of undefined constant tra_id - assumed 'tra_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 164 行.
+NOTIC: [8] Use of undefined constant tra_thumb - assumed 'tra_thumb' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 165 行.
+NOTIC: [8] Use of undefined constant tra_name - assumed 'tra_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Use of undefined constant tra_price - assumed 'tra_price' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 168 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013261s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013308s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000613s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000667s ]
+
+[ 2016-11-27T18:25:28+08:00 ] 192.168.2.210 /seeworld222/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+SQL: SHOW COLUMNS FROM `lunbo` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `lunbo` WHERE ( lun_show=1 ) ORDER BY lun_id desc LIMIT 0,3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `travel` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `travel` WHERE ( is_vip=1 ) ORDER BY tra_id desc LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `travel` ORDER BY tra_id desc LIMIT 0,4   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `article` WHERE ( a_status=1 ) ORDER BY a_id desc LIMIT 0,4   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000294s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000372s ]
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 45 行.
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 118 行.
+NOTIC: [8] Use of undefined constant lun_path - assumed 'lun_path' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 119 行.
+NOTIC: [8] Use of undefined constant tra_id - assumed 'tra_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 148 行.
+NOTIC: [8] Use of undefined constant tra_thumb - assumed 'tra_thumb' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 149 行.
+NOTIC: [8] Use of undefined constant tra_name - assumed 'tra_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [8] Use of undefined constant tra_id - assumed 'tra_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 164 行.
+NOTIC: [8] Use of undefined constant tra_thumb - assumed 'tra_thumb' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 165 行.
+NOTIC: [8] Use of undefined constant tra_name - assumed 'tra_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Use of undefined constant tra_price - assumed 'tra_price' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 168 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015623s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015690s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000240s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000878s ]
+
+[ 2016-11-27T18:25:29+08:00 ] 192.168.2.210 /seeworld222/index.php/Home/Service/service/coun_id/1/city_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+SQL: SHOW COLUMNS FROM `country` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `country`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `city`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `service`  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `city` WHERE ( coun_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `type` WHERE ( coun_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `service` WHERE ( coun_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `type` WHERE ( city_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `service` WHERE ( city_id=1 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+NOTIC: [8] Undefined variable: page /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/b17d78e560f31b3a0a3fc331cbe1b539.php 第 130 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010788s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010834s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000152s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000190s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000621s ]
+
+[ 2016-11-27T18:25:31+08:00 ] 192.168.2.210 /seeworld222/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+SQL: SHOW COLUMNS FROM `lunbo` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `lunbo` WHERE ( lun_show=1 ) ORDER BY lun_id desc LIMIT 0,3   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `travel` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `travel` WHERE ( is_vip=1 ) ORDER BY tra_id desc LIMIT 0,4   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `travel` ORDER BY tra_id desc LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `article` WHERE ( a_status=1 ) ORDER BY a_id desc LIMIT 0,4   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000258s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000333s ]
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 45 行.
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 118 行.
+NOTIC: [8] Use of undefined constant lun_path - assumed 'lun_path' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 119 行.
+NOTIC: [8] Use of undefined constant tra_id - assumed 'tra_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 148 行.
+NOTIC: [8] Use of undefined constant tra_thumb - assumed 'tra_thumb' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 149 行.
+NOTIC: [8] Use of undefined constant tra_name - assumed 'tra_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [8] Use of undefined constant tra_id - assumed 'tra_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 164 行.
+NOTIC: [8] Use of undefined constant tra_thumb - assumed 'tra_thumb' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 165 行.
+NOTIC: [8] Use of undefined constant tra_name - assumed 'tra_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Use of undefined constant tra_price - assumed 'tra_price' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 168 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011748s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011803s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000359s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000764s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001169s ]
+
+[ 2016-11-27T18:25:31+08:00 ] 192.168.2.210 /seeworld222/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+SQL: SHOW COLUMNS FROM `lunbo` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `lunbo` WHERE ( lun_show=1 ) ORDER BY lun_id desc LIMIT 0,3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `travel` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `travel` WHERE ( is_vip=1 ) ORDER BY tra_id desc LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `travel` ORDER BY tra_id desc LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `article` WHERE ( a_status=1 ) ORDER BY a_id desc LIMIT 0,4   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000278s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000371s ]
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 45 行.
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 118 行.
+NOTIC: [8] Use of undefined constant lun_path - assumed 'lun_path' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 119 行.
+NOTIC: [8] Use of undefined constant tra_id - assumed 'tra_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 148 行.
+NOTIC: [8] Use of undefined constant tra_thumb - assumed 'tra_thumb' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 149 行.
+NOTIC: [8] Use of undefined constant tra_name - assumed 'tra_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [8] Use of undefined constant tra_id - assumed 'tra_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 164 行.
+NOTIC: [8] Use of undefined constant tra_thumb - assumed 'tra_thumb' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 165 行.
+NOTIC: [8] Use of undefined constant tra_name - assumed 'tra_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Use of undefined constant tra_price - assumed 'tra_price' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 168 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018535s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018617s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000797s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000882s ]
+
+[ 2016-11-27T18:25:32+08:00 ] 192.168.2.210 /seeworld222/index.php/Home/Service/service/coun_id/1/city_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+SQL: SHOW COLUMNS FROM `country` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `country`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `city`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `service`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `city` WHERE ( coun_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `type` WHERE ( coun_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `service` WHERE ( coun_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `type` WHERE ( city_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `service` WHERE ( city_id=1 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+NOTIC: [8] Undefined variable: page /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/b17d78e560f31b3a0a3fc331cbe1b539.php 第 130 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010270s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010320s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000206s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000544s ]
+
+[ 2016-11-27T18:25:33+08:00 ] 192.168.2.210 /seeworld222/index.php/Home/Service/service/coun_id/1/city_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `country` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `country`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `city`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `service`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `city` WHERE ( coun_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `type` WHERE ( coun_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `service` WHERE ( coun_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `type` WHERE ( city_id=2 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `service` WHERE ( city_id=2 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+NOTIC: [8] Undefined variable: page /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/b17d78e560f31b3a0a3fc331cbe1b539.php 第 130 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010395s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010447s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000192s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000234s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000609s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000676s ]
+
+[ 2016-11-27T18:25:34+08:00 ] 192.168.2.210 /seeworld222/index.php/Home/Service/service/coun_id/1/city_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+SQL: SHOW COLUMNS FROM `country` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `country`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `city`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `service`  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `city` WHERE ( coun_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `type` WHERE ( coun_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `service` WHERE ( coun_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `type` WHERE ( city_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `service` WHERE ( city_id=1 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000214s ]
+NOTIC: [8] Undefined variable: page /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/b17d78e560f31b3a0a3fc331cbe1b539.php 第 130 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009980s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010028s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000203s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000574s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000627s ]
+
+[ 2016-11-27T18:25:35+08:00 ] 192.168.2.210 /seeworld222/index.php/Home/Service/service/coun_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+SQL: SHOW COLUMNS FROM `country` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `country`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `city`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `service`  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `city` WHERE ( coun_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `type` WHERE ( coun_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `service` WHERE ( coun_id=1 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+NOTIC: [8] Undefined variable: page /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/b17d78e560f31b3a0a3fc331cbe1b539.php 第 130 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009963s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010012s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000166s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000205s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000592s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000644s ]
+
+[ 2016-11-27T18:25:36+08:00 ] 192.168.2.210 /seeworld222/index.php/Home/Service/service/coun_id/1/city_id/1/type_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+SQL: SHOW COLUMNS FROM `country` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `country`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `city`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `service`  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `city` WHERE ( coun_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `type` WHERE ( coun_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `service` WHERE ( coun_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `type` WHERE ( city_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `service` WHERE ( city_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `service` WHERE ( t_id=2 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000161s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000228s ]
+NOTIC: [8] Undefined variable: page /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/b17d78e560f31b3a0a3fc331cbe1b539.php 第 130 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011868s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011956s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000279s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000696s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000757s ]
+
+[ 2016-11-27T18:25:36+08:00 ] 192.168.2.210 /seeworld222/index.php/Home/Service/service/coun_id/1/city_id/1/type_id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+SQL: SHOW COLUMNS FROM `country` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `country`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `city`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `service`  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `city` WHERE ( coun_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `type` WHERE ( coun_id=1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `service` WHERE ( coun_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `type` WHERE ( city_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `service` WHERE ( city_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `service` WHERE ( t_id=3 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000238s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000338s ]
+NOTIC: [8] Undefined variable: page /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/b17d78e560f31b3a0a3fc331cbe1b539.php 第 130 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012918s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012982s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000260s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000789s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000897s ]
+
+[ 2016-11-27T18:25:37+08:00 ] 192.168.2.210 /seeworld222/index.php/Home/Service/service/coun_id/1/city_id/1/type_id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+SQL: SHOW COLUMNS FROM `country` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `country`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `city`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `service`  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `city` WHERE ( coun_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `type` WHERE ( coun_id=1 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `service` WHERE ( coun_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `type` WHERE ( city_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `service` WHERE ( city_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `service` WHERE ( t_id=4 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+NOTIC: [8] Undefined variable: page /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/b17d78e560f31b3a0a3fc331cbe1b539.php 第 130 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012216s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012271s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000245s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000699s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000765s ]
+
+[ 2016-11-27T18:25:37+08:00 ] 192.168.2.210 /seeworld222/index.php/Home/Service/service/coun_id/1/city_id/1/type_id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+SQL: SHOW COLUMNS FROM `country` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `country`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `city`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `service`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `city` WHERE ( coun_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `type` WHERE ( coun_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `service` WHERE ( coun_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `type` WHERE ( city_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `service` WHERE ( city_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `service` WHERE ( t_id=5 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+NOTIC: [8] Undefined variable: page /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/b17d78e560f31b3a0a3fc331cbe1b539.php 第 130 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010700s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010755s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000330s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000737s ]
+
+[ 2016-11-27T18:25:38+08:00 ] 192.168.2.210 /seeworld222/index.php/Home/Service/service/coun_id/1/city_id/1/type_id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+SQL: SHOW COLUMNS FROM `country` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `country`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `city`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `service`  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `city` WHERE ( coun_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `type` WHERE ( coun_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `service` WHERE ( coun_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `type` WHERE ( city_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `service` WHERE ( city_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `service` WHERE ( t_id=6 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000209s ]
+NOTIC: [8] Undefined variable: page /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/b17d78e560f31b3a0a3fc331cbe1b539.php 第 130 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010136s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010183s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000203s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000616s ]
+
+[ 2016-11-27T18:25:39+08:00 ] 192.168.2.210 /seeworld222/index.php/Home/Service/service/coun_id/1/city_id/1/type_id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `country` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `country`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `city`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `service`  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `city` WHERE ( coun_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `type` WHERE ( coun_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `service` WHERE ( coun_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `type` WHERE ( city_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `service` WHERE ( city_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `service` WHERE ( t_id=5 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000220s ]
+NOTIC: [8] Undefined variable: page /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/b17d78e560f31b3a0a3fc331cbe1b539.php 第 130 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010270s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000167s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000206s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000576s ]
+
+[ 2016-11-27T18:25:40+08:00 ] 192.168.2.210 /seeworld222/index.php/Home/Service/service/coun_id/1/city_id/1/type_id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+SQL: SHOW COLUMNS FROM `country` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `country`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `city`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `service`  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `city` WHERE ( coun_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `type` WHERE ( coun_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `service` WHERE ( coun_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `type` WHERE ( city_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `service` WHERE ( city_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `service` WHERE ( t_id=4 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000166s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+NOTIC: [8] Undefined variable: page /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/b17d78e560f31b3a0a3fc331cbe1b539.php 第 130 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009814s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009861s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000202s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000633s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000680s ]
+
+[ 2016-11-27T18:25:40+08:00 ] 192.168.2.210 /seeworld222/index.php/Home/Service/service/coun_id/1/city_id/1/type_id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `country` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `country`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `city`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `service`  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `city` WHERE ( coun_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `type` WHERE ( coun_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `service` WHERE ( coun_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `type` WHERE ( city_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `service` WHERE ( city_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `service` WHERE ( t_id=3 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+NOTIC: [8] Undefined variable: page /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/b17d78e560f31b3a0a3fc331cbe1b539.php 第 130 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010714s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010767s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000229s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000761s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000837s ]
+
+[ 2016-11-27T18:25:41+08:00 ] 192.168.2.210 /seeworld222/index.php/Home/Service/service/coun_id/1/city_id/1/type_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `country` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `country`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `city`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `service`  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `city` WHERE ( coun_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `type` WHERE ( coun_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `service` WHERE ( coun_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `type` WHERE ( city_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `service` WHERE ( city_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `service` WHERE ( t_id=2 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+NOTIC: [8] Undefined variable: page /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/b17d78e560f31b3a0a3fc331cbe1b539.php 第 130 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009988s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010035s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000163s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000201s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000540s ]
+
+[ 2016-11-27T18:25:42+08:00 ] 192.168.2.210 /seeworld222/index.php/Home/Service/service/coun_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `country` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `country`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `city`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `service`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `city` WHERE ( coun_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `type` WHERE ( coun_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `service` WHERE ( coun_id=1 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+NOTIC: [8] Undefined variable: page /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/b17d78e560f31b3a0a3fc331cbe1b539.php 第 130 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010128s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010175s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000198s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000625s ]
+
+[ 2016-11-27T18:25:42+08:00 ] 192.168.2.210 /seeworld222/index.php/Home/Service/service/coun_id/1/city_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000416s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+SQL: SHOW COLUMNS FROM `country` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `country`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `city`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `service`  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `city` WHERE ( coun_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `type` WHERE ( coun_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `service` WHERE ( coun_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `type` WHERE ( city_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `service` WHERE ( city_id=1 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+NOTIC: [8] Undefined variable: page /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/b17d78e560f31b3a0a3fc331cbe1b539.php 第 130 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010719s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010769s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000179s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000219s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000892s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000964s ]
+
+[ 2016-11-27T18:25:43+08:00 ] 192.168.2.210 /seeworld222/index.php/Home/Service/service/coun_id/1/city_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+SQL: SHOW COLUMNS FROM `country` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `country`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `city`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `service`  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `city` WHERE ( coun_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `type` WHERE ( coun_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `service` WHERE ( coun_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `type` WHERE ( city_id=2 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `service` WHERE ( city_id=2 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+NOTIC: [8] Undefined variable: page /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/b17d78e560f31b3a0a3fc331cbe1b539.php 第 130 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009736s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009781s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000158s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000197s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000594s ]
+
+[ 2016-11-27T18:25:44+08:00 ] 192.168.2.210 /seeworld222/index.php/Home/Service/service/coun_id/1/city_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+SQL: SHOW COLUMNS FROM `country` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `country`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `city`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `service`  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `city` WHERE ( coun_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `type` WHERE ( coun_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `service` WHERE ( coun_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `type` WHERE ( city_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `service` WHERE ( city_id=1 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+NOTIC: [8] Undefined variable: page /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/b17d78e560f31b3a0a3fc331cbe1b539.php 第 130 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009807s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009862s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000202s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001284s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001421s ]
+
+[ 2016-11-27T18:25:44+08:00 ] 192.168.2.210 /seeworld222/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+SQL: SHOW COLUMNS FROM `lunbo` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `lunbo` WHERE ( lun_show=1 ) ORDER BY lun_id desc LIMIT 0,3   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `travel` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `travel` WHERE ( is_vip=1 ) ORDER BY tra_id desc LIMIT 0,4   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `travel` ORDER BY tra_id desc LIMIT 0,4   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `article` WHERE ( a_status=1 ) ORDER BY a_id desc LIMIT 0,4   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000252s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000315s ]
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 45 行.
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 118 行.
+NOTIC: [8] Use of undefined constant lun_path - assumed 'lun_path' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 119 行.
+NOTIC: [8] Use of undefined constant tra_id - assumed 'tra_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 148 行.
+NOTIC: [8] Use of undefined constant tra_thumb - assumed 'tra_thumb' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 149 行.
+NOTIC: [8] Use of undefined constant tra_name - assumed 'tra_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [8] Use of undefined constant tra_id - assumed 'tra_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 164 行.
+NOTIC: [8] Use of undefined constant tra_thumb - assumed 'tra_thumb' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 165 行.
+NOTIC: [8] Use of undefined constant tra_name - assumed 'tra_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Use of undefined constant tra_price - assumed 'tra_price' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 168 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012211s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012258s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000158s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000538s ]
+
+[ 2016-11-27T18:25:44+08:00 ] 192.168.2.210 /seeworld222/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000550s ]
+SQL: SHOW COLUMNS FROM `lunbo` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `lunbo` WHERE ( lun_show=1 ) ORDER BY lun_id desc LIMIT 0,3   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `travel` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `travel` WHERE ( is_vip=1 ) ORDER BY tra_id desc LIMIT 0,4   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `travel` ORDER BY tra_id desc LIMIT 0,4   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `article` WHERE ( a_status=1 ) ORDER BY a_id desc LIMIT 0,4   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000344s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000446s ]
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 45 行.
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 118 行.
+NOTIC: [8] Use of undefined constant lun_path - assumed 'lun_path' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 119 行.
+NOTIC: [8] Use of undefined constant tra_id - assumed 'tra_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 148 行.
+NOTIC: [8] Use of undefined constant tra_thumb - assumed 'tra_thumb' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 149 行.
+NOTIC: [8] Use of undefined constant tra_name - assumed 'tra_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [8] Use of undefined constant tra_id - assumed 'tra_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 164 行.
+NOTIC: [8] Use of undefined constant tra_thumb - assumed 'tra_thumb' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 165 行.
+NOTIC: [8] Use of undefined constant tra_name - assumed 'tra_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Use of undefined constant tra_price - assumed 'tra_price' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 168 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018646s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018750s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000253s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000807s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000886s ]
+
+[ 2016-11-27T18:25:45+08:00 ] 192.168.2.210 /seeworld222/index.php/Home/Service/service/coun_id/1/city_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000630s ]
+SQL: SHOW COLUMNS FROM `country` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `country`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `city`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `service`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `city` WHERE ( coun_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `type` WHERE ( coun_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `service` WHERE ( coun_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `type` WHERE ( city_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `service` WHERE ( city_id=1 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+NOTIC: [8] Undefined variable: page /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/b17d78e560f31b3a0a3fc331cbe1b539.php 第 130 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016458s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016527s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000299s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000659s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000726s ]
+
+[ 2016-11-27T18:25:46+08:00 ] 192.168.2.210 /seeworld222/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+SQL: SHOW COLUMNS FROM `lunbo` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `lunbo` WHERE ( lun_show=1 ) ORDER BY lun_id desc LIMIT 0,3   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `travel` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `travel` WHERE ( is_vip=1 ) ORDER BY tra_id desc LIMIT 0,4   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `travel` ORDER BY tra_id desc LIMIT 0,4   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `article` WHERE ( a_status=1 ) ORDER BY a_id desc LIMIT 0,4   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000344s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000448s ]
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 45 行.
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 118 行.
+NOTIC: [8] Use of undefined constant lun_path - assumed 'lun_path' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 119 行.
+NOTIC: [8] Use of undefined constant tra_id - assumed 'tra_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 148 行.
+NOTIC: [8] Use of undefined constant tra_thumb - assumed 'tra_thumb' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 149 行.
+NOTIC: [8] Use of undefined constant tra_name - assumed 'tra_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [8] Use of undefined constant tra_id - assumed 'tra_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 164 行.
+NOTIC: [8] Use of undefined constant tra_thumb - assumed 'tra_thumb' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 165 行.
+NOTIC: [8] Use of undefined constant tra_name - assumed 'tra_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Use of undefined constant tra_price - assumed 'tra_price' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 168 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014572s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014647s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000705s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000763s ]
+
+[ 2016-11-27T18:25:46+08:00 ] 192.168.2.210 /seeworld222/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000589s ]
+SQL: SHOW COLUMNS FROM `lunbo` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `lunbo` WHERE ( lun_show=1 ) ORDER BY lun_id desc LIMIT 0,3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `travel` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `travel` WHERE ( is_vip=1 ) ORDER BY tra_id desc LIMIT 0,4   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `travel` ORDER BY tra_id desc LIMIT 0,4   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `article` WHERE ( a_status=1 ) ORDER BY a_id desc LIMIT 0,4   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000317s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000411s ]
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 45 行.
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 118 行.
+NOTIC: [8] Use of undefined constant lun_path - assumed 'lun_path' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 119 行.
+NOTIC: [8] Use of undefined constant tra_id - assumed 'tra_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 148 行.
+NOTIC: [8] Use of undefined constant tra_thumb - assumed 'tra_thumb' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 149 行.
+NOTIC: [8] Use of undefined constant tra_name - assumed 'tra_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [8] Use of undefined constant tra_id - assumed 'tra_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 164 行.
+NOTIC: [8] Use of undefined constant tra_thumb - assumed 'tra_thumb' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 165 行.
+NOTIC: [8] Use of undefined constant tra_name - assumed 'tra_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Use of undefined constant tra_price - assumed 'tra_price' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 168 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024705s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024773s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000263s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000852s ]
+
+[ 2016-11-27T18:25:49+08:00 ] 192.168.2.210 /seeworld222/index.php/Home/Rec/rec.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+SQL: SHOW COLUMNS FROM `rec` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `rec`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `article`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `article` ORDER BY a_click desc LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `article` ORDER BY a_click desc LIMIT 1,3   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: rec_id /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/RecController.class.php 第 24 行.
+SQL: SELECT * FROM `rec` WHERE `rec_id` = 0 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: rec_id /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/RecController.class.php 第 31 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000191s ]
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 31 行.
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 32 行.
+NOTIC: [8] Use of undefined constant rec_id - assumed 'rec_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 63 行.
+NOTIC: [8] Use of undefined constant rec_name - assumed 'rec_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 63 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 72 行.
+NOTIC: [8] Use of undefined constant a_img - assumed 'a_img' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 74 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 78 行.
+NOTIC: [8] Use of undefined constant a_name - assumed 'a_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 78 行.
+NOTIC: [8] Use of undefined constant a_intro - assumed 'a_intro' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 80 行.
+NOTIC: [8] Use of undefined constant pubtime - assumed 'pubtime' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 92 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 72 行.
+NOTIC: [8] Use of undefined constant a_img - assumed 'a_img' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 74 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 78 行.
+NOTIC: [8] Use of undefined constant a_name - assumed 'a_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 78 行.
+NOTIC: [8] Use of undefined constant a_intro - assumed 'a_intro' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 80 行.
+NOTIC: [8] Use of undefined constant pubtime - assumed 'pubtime' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 92 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 72 行.
+NOTIC: [8] Use of undefined constant a_img - assumed 'a_img' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 74 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 78 行.
+NOTIC: [8] Use of undefined constant a_name - assumed 'a_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 78 行.
+NOTIC: [8] Use of undefined constant a_intro - assumed 'a_intro' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 80 行.
+NOTIC: [8] Use of undefined constant pubtime - assumed 'pubtime' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 92 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 72 行.
+NOTIC: [8] Use of undefined constant a_img - assumed 'a_img' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 74 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 78 行.
+NOTIC: [8] Use of undefined constant a_name - assumed 'a_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 78 行.
+NOTIC: [8] Use of undefined constant a_intro - assumed 'a_intro' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 80 行.
+NOTIC: [8] Use of undefined constant pubtime - assumed 'pubtime' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 92 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 72 行.
+NOTIC: [8] Use of undefined constant a_img - assumed 'a_img' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 74 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 78 行.
+NOTIC: [8] Use of undefined constant a_name - assumed 'a_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 78 行.
+NOTIC: [8] Use of undefined constant a_intro - assumed 'a_intro' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 80 行.
+NOTIC: [8] Use of undefined constant pubtime - assumed 'pubtime' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 92 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 72 行.
+NOTIC: [8] Use of undefined constant a_img - assumed 'a_img' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 74 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 78 行.
+NOTIC: [8] Use of undefined constant a_name - assumed 'a_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 78 行.
+NOTIC: [8] Use of undefined constant a_intro - assumed 'a_intro' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 80 行.
+NOTIC: [8] Use of undefined constant pubtime - assumed 'pubtime' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 92 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 108 行.
+NOTIC: [8] Use of undefined constant a_img - assumed 'a_img' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 109 行.
+NOTIC: [8] Use of undefined constant a_name - assumed 'a_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 110 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 111 行.
+NOTIC: [8] Use of undefined constant a_name - assumed 'a_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 111 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 111 行.
+NOTIC: [8] Use of undefined constant a_name - assumed 'a_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 111 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 111 行.
+NOTIC: [8] Use of undefined constant a_name - assumed 'a_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/d3633c4ffdb499216e98cdc2de776179.php 第 111 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018540s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018586s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000574s ]
+
+[ 2016-11-27T18:25:50+08:00 ] 192.168.2.210 /seeworld222/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000697s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+SQL: SHOW COLUMNS FROM `lunbo` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `lunbo` WHERE ( lun_show=1 ) ORDER BY lun_id desc LIMIT 0,3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `travel` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `travel` WHERE ( is_vip=1 ) ORDER BY tra_id desc LIMIT 0,4   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `travel` ORDER BY tra_id desc LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `article` WHERE ( a_status=1 ) ORDER BY a_id desc LIMIT 0,4   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000294s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000397s ]
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 45 行.
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 118 行.
+NOTIC: [8] Use of undefined constant lun_path - assumed 'lun_path' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 119 行.
+NOTIC: [8] Use of undefined constant tra_id - assumed 'tra_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 148 行.
+NOTIC: [8] Use of undefined constant tra_thumb - assumed 'tra_thumb' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 149 行.
+NOTIC: [8] Use of undefined constant tra_name - assumed 'tra_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [8] Use of undefined constant tra_id - assumed 'tra_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 164 行.
+NOTIC: [8] Use of undefined constant tra_thumb - assumed 'tra_thumb' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 165 行.
+NOTIC: [8] Use of undefined constant tra_name - assumed 'tra_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Use of undefined constant tra_price - assumed 'tra_price' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 168 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017755s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017842s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000894s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000992s ]
+
+[ 2016-11-27T18:25:51+08:00 ] 192.168.2.210 /seeworld222/index.php/Home/Service/service.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+SQL: SHOW COLUMNS FROM `country` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `country`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `city`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `service`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+NOTIC: [8] Undefined variable: page /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/b17d78e560f31b3a0a3fc331cbe1b539.php 第 130 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010399s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010452s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000198s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000249s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000767s ]
+
+[ 2016-11-27T18:25:51+08:00 ] 192.168.2.210 /seeworld222/index.php/Home/Service/service/coun_id/1/city_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `country` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `country`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `city`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `service`  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `city` WHERE ( coun_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `type` WHERE ( coun_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `service` WHERE ( coun_id=1 )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `type` WHERE ( city_id=1 )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `service` WHERE ( city_id=1 )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000211s ]
+NOTIC: [8] Undefined variable: page /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/b17d78e560f31b3a0a3fc331cbe1b539.php 第 130 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009997s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010048s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000205s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ServiceController.class.php:135) /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000556s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000606s ]
+
+[ 2016-11-27T18:25:52+08:00 ] 192.168.2.210 /seeworld222/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+SQL: SHOW COLUMNS FROM `lunbo` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `lunbo` WHERE ( lun_show=1 ) ORDER BY lun_id desc LIMIT 0,3   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `travel` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `travel` WHERE ( is_vip=1 ) ORDER BY tra_id desc LIMIT 0,4   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `travel` ORDER BY tra_id desc LIMIT 0,4   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `article` WHERE ( a_status=1 ) ORDER BY a_id desc LIMIT 0,4   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000262s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000328s ]
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 45 行.
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 118 行.
+NOTIC: [8] Use of undefined constant lun_path - assumed 'lun_path' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 119 行.
+NOTIC: [8] Use of undefined constant tra_id - assumed 'tra_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 148 行.
+NOTIC: [8] Use of undefined constant tra_thumb - assumed 'tra_thumb' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 149 行.
+NOTIC: [8] Use of undefined constant tra_name - assumed 'tra_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [8] Use of undefined constant tra_id - assumed 'tra_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 164 行.
+NOTIC: [8] Use of undefined constant tra_thumb - assumed 'tra_thumb' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 165 行.
+NOTIC: [8] Use of undefined constant tra_name - assumed 'tra_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Use of undefined constant tra_price - assumed 'tra_price' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 168 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011678s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000187s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000703s ]
+
+[ 2016-11-27T18:25:52+08:00 ] 192.168.2.210 /seeworld222/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+SQL: SHOW COLUMNS FROM `lunbo` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `lunbo` WHERE ( lun_show=1 ) ORDER BY lun_id desc LIMIT 0,3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `travel` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `travel` WHERE ( is_vip=1 ) ORDER BY tra_id desc LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `travel` ORDER BY tra_id desc LIMIT 0,4   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `article` WHERE ( a_status=1 ) ORDER BY a_id desc LIMIT 0,4   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000275s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000360s ]
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 45 行.
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 118 行.
+NOTIC: [8] Use of undefined constant lun_path - assumed 'lun_path' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 119 行.
+NOTIC: [8] Use of undefined constant tra_id - assumed 'tra_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 148 行.
+NOTIC: [8] Use of undefined constant tra_thumb - assumed 'tra_thumb' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 149 行.
+NOTIC: [8] Use of undefined constant tra_name - assumed 'tra_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [8] Use of undefined constant tra_id - assumed 'tra_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 164 行.
+NOTIC: [8] Use of undefined constant tra_thumb - assumed 'tra_thumb' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 165 行.
+NOTIC: [8] Use of undefined constant tra_name - assumed 'tra_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Use of undefined constant tra_price - assumed 'tra_price' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 168 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013237s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013300s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000804s ]
+

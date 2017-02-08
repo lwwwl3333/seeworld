@@ -1,0 +1,9 @@
+[ 2016-12-19T23:35:26+08:00 ] ::1 /seeworld/index.php/Home/Private/private.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002554s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001484s ]
+ERR: 非法操作:private
+

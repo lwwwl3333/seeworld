@@ -1,0 +1,140 @@
+#slider4 {
+    width: 100%;
+    height: 480px;
+    list-style: none;
+    overflow: hidden;
+    position: relative
+}
+
+.anythingSlider {
+    width: 100%
+}
+
+.anythingControls {
+    width: 100%
+}
+
+div.anythingSlider {
+    display: block;
+    margin: 0 auto;
+    overflow: visible !important;
+    position: relative;
+}
+
+div.anythingSlider .anythingWindow {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.anythingBase {
+    background: transparent;
+    list-style: none;
+    position: absolute;
+    overflow: visible !important;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.anythingBase .panel {
+    background: transparent;
+    display: block;
+    overflow: hidden;
+    float: left;
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+div.anythingSlider .anythingControls ul li {
+    display: inline;
+}
+
+div.anythingSlider .anythingControls ul li a {
+    display: block;
+    float: left;
+    width: 25%;
+    background: #fff;
+    color: #333;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-bottom: #ddd 1px solid;
+    height: 60px;
+    line-height: 30px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.anythingControls .thumbNav a.cur {
+    background: #f5f5f5;
+}
+
+.anythingControls .thumbNav ul {
+    width: 100%
+}
+
+div.anythingSlider .arrow a {
+    display: block;
+    outline: 0 none;
+    text-indent: -9999px;
+}
+
+div.anythingSlider .arrow {
+    display: block;
+    position: absolute;
+    top: 190px;
+    right: 0
+}
+
+div.anythingSlider .forward {
+    right: 0px;
+    background: url("images/right_but.png") no-repeat;
+    background-size: 60px;
+    width: 60px;
+    height: 100px;
+}
+
+div.anythingSlider .back {
+    left: 0px;
+    background: url("images/left_but.png") no-repeat;
+    background-size: 60px;
+    width: 60px;
+    height: 100px;
+}
+
+.banner_but {
+    position: absolute;
+    top: 390px;
+    width: 700px;
+    left: 50%;
+    margin-left: -370px;
+    text-align: center;
+    color: #fff;
+    line-height: 2;
+	background:rgba(0,0,0,0.3);
+	padding:20px;
+	border-radius:5px;
+	
+}
+.banner_but h1{ font-size:18px; font-weight:normal; text-align:center}
+.banner_but h1 p{ font-size:16px; display:inline}
+.banner_but .banner_left_but{ width:470px; margin:0 auto}
+.banner_but .banner_left_but a {
+	border:#fff 1px solid;
+	    height: 35px;
+    line-height: 35px;
+    display: block;
+    color: #fff;
+    margin: 15px 6px 5px;
+	float:left;
+	padding:0 20px;
+	border-radius:3px;
+
+}
+.banner_but .banner_left_but a:hover{ background:rgba(255,255,255,0.3)}
+
+div.anythingSlider .anythingControls ul li a:hover{ background: #f5f5f5}
+

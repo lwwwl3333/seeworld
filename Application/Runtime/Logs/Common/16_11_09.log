@@ -1,0 +1,36 @@
+[ 2016-11-09T17:55:57+08:00 ] ::1 /seeworld/index.php/index.php-r=book%7Cindex&type_id=1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+ERR: 无法加载模块:Index.php-r=book|index&type_id=1
+
+[ 2016-11-09T17:56:01+08:00 ] ::1 /seeworld/index.php/index.php-r=line%7Ccustom.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+ERR: 无法加载模块:Index.php-r=line|custom
+
+[ 2016-11-09T17:56:04+08:00 ] ::1 /seeworld/index.php/index.php-r=person%7Cindex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+ERR: 无法加载模块:Index.php-r=person|index
+
+[ 2016-11-09T17:56:21+08:00 ] ::1 /seeworld/index.php/index.php-r=book%7Cindex.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+ERR: 无法加载模块:Index.php-r=book|index
+
+[ 2016-11-09T17:57:55+08:00 ] ::1 /seeworld/index.php/Theme
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+ERR: 无法加载模块:Theme
+
+[ 2016-11-09T17:57:59+08:00 ] ::1 /seeworld/index.php/Theme
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+ERR: 无法加载模块:Theme
+

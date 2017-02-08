@@ -1,0 +1,764 @@
+[ 2016-11-14T22:40:34+08:00 ] ::1 /seeworld222/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+SQL: SHOW COLUMNS FROM `lunbo` [ RunTime:0.0172s ]
+SQL: SELECT * FROM `lunbo` WHERE ( lun_show=1 ) ORDER BY lun_id desc LIMIT 0,3   [ RunTime:0.0026s ]
+SQL: SHOW COLUMNS FROM `travel` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `travel` WHERE ( is_vip=1 ) ORDER BY tra_id desc LIMIT 0,4   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `travel` ORDER BY tra_id desc LIMIT 0,4   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `article` WHERE ( a_status=1 ) ORDER BY a_id desc LIMIT 0,4   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002860s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002940s ]
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 45 行.
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 118 行.
+NOTIC: [8] Use of undefined constant lun_path - assumed 'lun_path' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 119 行.
+NOTIC: [8] Use of undefined constant tra_id - assumed 'tra_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 148 行.
+NOTIC: [8] Use of undefined constant tra_thumb - assumed 'tra_thumb' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 149 行.
+NOTIC: [8] Use of undefined constant tra_name - assumed 'tra_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [8] Use of undefined constant tra_id - assumed 'tra_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 164 行.
+NOTIC: [8] Use of undefined constant tra_thumb - assumed 'tra_thumb' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 165 行.
+NOTIC: [8] Use of undefined constant tra_name - assumed 'tra_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Use of undefined constant tra_price - assumed 'tra_price' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 168 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 219 行.
+NOTIC: [8] Use of undefined constant a_img - assumed 'a_img' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 220 行.
+NOTIC: [8] Use of undefined constant a_name - assumed 'a_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 223 行.
+NOTIC: [8] Use of undefined constant a_intro - assumed 'a_intro' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 224 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029056s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029110s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002416s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001095s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001207s ]
+
+[ 2016-11-14T22:40:34+08:00 ] ::1 /seeworld222/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000795s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+SQL: SHOW COLUMNS FROM `lunbo` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `lunbo` WHERE ( lun_show=1 ) ORDER BY lun_id desc LIMIT 0,3   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `travel` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `travel` WHERE ( is_vip=1 ) ORDER BY tra_id desc LIMIT 0,4   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `travel` ORDER BY tra_id desc LIMIT 0,4   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `article` WHERE ( a_status=1 ) ORDER BY a_id desc LIMIT 0,4   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000308s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000434s ]
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 45 行.
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 118 行.
+NOTIC: [8] Use of undefined constant lun_path - assumed 'lun_path' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 119 行.
+NOTIC: [8] Use of undefined constant tra_id - assumed 'tra_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 148 行.
+NOTIC: [8] Use of undefined constant tra_thumb - assumed 'tra_thumb' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 149 行.
+NOTIC: [8] Use of undefined constant tra_name - assumed 'tra_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [8] Use of undefined constant tra_id - assumed 'tra_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 164 行.
+NOTIC: [8] Use of undefined constant tra_thumb - assumed 'tra_thumb' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 165 行.
+NOTIC: [8] Use of undefined constant tra_name - assumed 'tra_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Use of undefined constant tra_price - assumed 'tra_price' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 168 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 219 行.
+NOTIC: [8] Use of undefined constant a_img - assumed 'a_img' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 220 行.
+NOTIC: [8] Use of undefined constant a_name - assumed 'a_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 223 行.
+NOTIC: [8] Use of undefined constant a_intro - assumed 'a_intro' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 224 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019815s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019878s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000616s ]
+
+[ 2016-11-14T22:40:42+08:00 ] ::1 /seeworld222/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+SQL: SHOW COLUMNS FROM `lunbo` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `lunbo` WHERE ( lun_show=1 ) ORDER BY lun_id desc LIMIT 0,3   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `travel` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `travel` WHERE ( is_vip=1 ) ORDER BY tra_id desc LIMIT 0,4   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `travel` ORDER BY tra_id desc LIMIT 0,4   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `article` WHERE ( a_status=1 ) ORDER BY a_id desc LIMIT 0,4   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000296s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000362s ]
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 45 行.
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 118 行.
+NOTIC: [8] Use of undefined constant lun_path - assumed 'lun_path' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 119 行.
+NOTIC: [8] Use of undefined constant tra_id - assumed 'tra_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 148 行.
+NOTIC: [8] Use of undefined constant tra_thumb - assumed 'tra_thumb' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 149 行.
+NOTIC: [8] Use of undefined constant tra_name - assumed 'tra_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [8] Use of undefined constant tra_id - assumed 'tra_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 164 行.
+NOTIC: [8] Use of undefined constant tra_thumb - assumed 'tra_thumb' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 165 行.
+NOTIC: [8] Use of undefined constant tra_name - assumed 'tra_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Use of undefined constant tra_price - assumed 'tra_price' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 168 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 219 行.
+NOTIC: [8] Use of undefined constant a_img - assumed 'a_img' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 220 行.
+NOTIC: [8] Use of undefined constant a_name - assumed 'a_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 223 行.
+NOTIC: [8] Use of undefined constant a_intro - assumed 'a_intro' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 224 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016473s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016517s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000155s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000576s ]
+
+[ 2016-11-14T22:40:42+08:00 ] ::1 /seeworld222/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+SQL: SHOW COLUMNS FROM `lunbo` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `lunbo` WHERE ( lun_show=1 ) ORDER BY lun_id desc LIMIT 0,3   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `travel` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `travel` WHERE ( is_vip=1 ) ORDER BY tra_id desc LIMIT 0,4   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `travel` ORDER BY tra_id desc LIMIT 0,4   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `article` WHERE ( a_status=1 ) ORDER BY a_id desc LIMIT 0,4   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000288s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000395s ]
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 45 行.
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 118 行.
+NOTIC: [8] Use of undefined constant lun_path - assumed 'lun_path' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 119 行.
+NOTIC: [8] Use of undefined constant tra_id - assumed 'tra_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 148 行.
+NOTIC: [8] Use of undefined constant tra_thumb - assumed 'tra_thumb' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 149 行.
+NOTIC: [8] Use of undefined constant tra_name - assumed 'tra_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [8] Use of undefined constant tra_id - assumed 'tra_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 164 行.
+NOTIC: [8] Use of undefined constant tra_thumb - assumed 'tra_thumb' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 165 行.
+NOTIC: [8] Use of undefined constant tra_name - assumed 'tra_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Use of undefined constant tra_price - assumed 'tra_price' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 168 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 219 行.
+NOTIC: [8] Use of undefined constant a_img - assumed 'a_img' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 220 行.
+NOTIC: [8] Use of undefined constant a_name - assumed 'a_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 223 行.
+NOTIC: [8] Use of undefined constant a_intro - assumed 'a_intro' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 224 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015612s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015680s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000578s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000628s ]
+
+[ 2016-11-14T22:42:00+08:00 ] ::1 /seeworld222/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000619s ]
+SQL: SHOW COLUMNS FROM `lunbo` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `lunbo` WHERE ( lun_show=1 ) ORDER BY lun_id desc LIMIT 0,3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `travel` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `travel` WHERE ( is_vip=1 ) ORDER BY tra_id desc LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `travel` ORDER BY tra_id desc LIMIT 0,4   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `article` WHERE ( a_status=1 ) ORDER BY a_id desc LIMIT 0,4   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000318s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000413s ]
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 45 行.
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 118 行.
+NOTIC: [8] Use of undefined constant lun_path - assumed 'lun_path' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 119 行.
+NOTIC: [8] Use of undefined constant tra_id - assumed 'tra_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 148 行.
+NOTIC: [8] Use of undefined constant tra_thumb - assumed 'tra_thumb' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 149 行.
+NOTIC: [8] Use of undefined constant tra_name - assumed 'tra_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [8] Use of undefined constant tra_id - assumed 'tra_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 164 行.
+NOTIC: [8] Use of undefined constant tra_thumb - assumed 'tra_thumb' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 165 行.
+NOTIC: [8] Use of undefined constant tra_name - assumed 'tra_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Use of undefined constant tra_price - assumed 'tra_price' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 168 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 219 行.
+NOTIC: [8] Use of undefined constant a_img - assumed 'a_img' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 220 行.
+NOTIC: [8] Use of undefined constant a_name - assumed 'a_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 223 行.
+NOTIC: [8] Use of undefined constant a_intro - assumed 'a_intro' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 224 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015995s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016051s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000689s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000760s ]
+
+[ 2016-11-14T22:42:22+08:00 ] ::1 /seeworld222/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000741s ]
+SQL: SHOW COLUMNS FROM `lunbo` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `lunbo` WHERE ( lun_show=1 ) ORDER BY lun_id desc LIMIT 0,3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `travel` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `travel` WHERE ( is_vip=1 ) ORDER BY tra_id desc LIMIT 0,4   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `travel` ORDER BY tra_id desc LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `article` WHERE ( a_status=1 ) ORDER BY a_id desc LIMIT 0,4   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000308s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000386s ]
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 45 行.
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 118 行.
+NOTIC: [8] Use of undefined constant lun_path - assumed 'lun_path' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 119 行.
+NOTIC: [8] Use of undefined constant tra_id - assumed 'tra_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 148 行.
+NOTIC: [8] Use of undefined constant tra_thumb - assumed 'tra_thumb' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 149 行.
+NOTIC: [8] Use of undefined constant tra_name - assumed 'tra_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [8] Use of undefined constant tra_id - assumed 'tra_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 164 行.
+NOTIC: [8] Use of undefined constant tra_thumb - assumed 'tra_thumb' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 165 行.
+NOTIC: [8] Use of undefined constant tra_name - assumed 'tra_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Use of undefined constant tra_price - assumed 'tra_price' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 168 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 219 行.
+NOTIC: [8] Use of undefined constant a_img - assumed 'a_img' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 220 行.
+NOTIC: [8] Use of undefined constant a_name - assumed 'a_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 223 行.
+NOTIC: [8] Use of undefined constant a_intro - assumed 'a_intro' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 224 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012932s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012992s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000722s ]
+
+[ 2016-11-14T22:42:45+08:00 ] ::1 /seeworld222/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `lunbo` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `lunbo` WHERE ( lun_show=1 ) ORDER BY lun_id desc LIMIT 0,3   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `travel` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `travel` WHERE ( is_vip=1 ) ORDER BY tra_id desc LIMIT 0,4   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `travel` ORDER BY tra_id desc LIMIT 0,4   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `article` WHERE ( a_status=1 ) ORDER BY a_id desc LIMIT 0,4   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000253s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000316s ]
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 45 行.
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 118 行.
+NOTIC: [8] Use of undefined constant lun_path - assumed 'lun_path' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 119 行.
+NOTIC: [8] Use of undefined constant tra_id - assumed 'tra_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 148 行.
+NOTIC: [8] Use of undefined constant tra_thumb - assumed 'tra_thumb' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 149 行.
+NOTIC: [8] Use of undefined constant tra_name - assumed 'tra_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [8] Use of undefined constant tra_id - assumed 'tra_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 164 行.
+NOTIC: [8] Use of undefined constant tra_thumb - assumed 'tra_thumb' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 165 行.
+NOTIC: [8] Use of undefined constant tra_name - assumed 'tra_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Use of undefined constant tra_price - assumed 'tra_price' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 168 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 219 行.
+NOTIC: [8] Use of undefined constant a_img - assumed 'a_img' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 220 行.
+NOTIC: [8] Use of undefined constant a_name - assumed 'a_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 223 行.
+NOTIC: [8] Use of undefined constant a_intro - assumed 'a_intro' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 224 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011844s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011913s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000587s ]
+
+[ 2016-11-14T22:42:45+08:00 ] ::1 /seeworld222/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+SQL: SHOW COLUMNS FROM `lunbo` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `lunbo` WHERE ( lun_show=1 ) ORDER BY lun_id desc LIMIT 0,3   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `travel` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `travel` WHERE ( is_vip=1 ) ORDER BY tra_id desc LIMIT 0,4   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `travel` ORDER BY tra_id desc LIMIT 0,4   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `article` WHERE ( a_status=1 ) ORDER BY a_id desc LIMIT 0,4   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000298s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000365s ]
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 45 行.
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 118 行.
+NOTIC: [8] Use of undefined constant lun_path - assumed 'lun_path' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 119 行.
+NOTIC: [8] Use of undefined constant tra_id - assumed 'tra_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 148 行.
+NOTIC: [8] Use of undefined constant tra_thumb - assumed 'tra_thumb' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 149 行.
+NOTIC: [8] Use of undefined constant tra_name - assumed 'tra_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [8] Use of undefined constant tra_id - assumed 'tra_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 164 行.
+NOTIC: [8] Use of undefined constant tra_thumb - assumed 'tra_thumb' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 165 行.
+NOTIC: [8] Use of undefined constant tra_name - assumed 'tra_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Use of undefined constant tra_price - assumed 'tra_price' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 168 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 219 行.
+NOTIC: [8] Use of undefined constant a_img - assumed 'a_img' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 220 行.
+NOTIC: [8] Use of undefined constant a_name - assumed 'a_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 223 行.
+NOTIC: [8] Use of undefined constant a_intro - assumed 'a_intro' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 224 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012512s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000532s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000588s ]
+
+[ 2016-11-14T22:42:47+08:00 ] ::1 /seeworld222/index.php/Home/Travel/travel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `travel` [ RunTime:0.0015s ]
+SQL: SELECT travel.*,`cat_name` FROM `travel` INNER JOIN cat  ON  travel.cat_id = cat.cat_id    [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: cat_id /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/TravelController.class.php 第 17 行.
+SQL: SELECT * FROM `cat` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: cat_id /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/TravelController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000174s ]
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/67dd6de476508246a7963789e19e945e.php 第 31 行.
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/67dd6de476508246a7963789e19e945e.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009387s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009438s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000533s ]
+
+[ 2016-11-14T22:42:47+08:00 ] ::1 /seeworld222/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+SQL: SHOW COLUMNS FROM `lunbo` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `lunbo` WHERE ( lun_show=1 ) ORDER BY lun_id desc LIMIT 0,3   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `travel` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `travel` WHERE ( is_vip=1 ) ORDER BY tra_id desc LIMIT 0,4   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `travel` ORDER BY tra_id desc LIMIT 0,4   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `article` WHERE ( a_status=1 ) ORDER BY a_id desc LIMIT 0,4   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000319s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000453s ]
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 45 行.
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 118 行.
+NOTIC: [8] Use of undefined constant lun_path - assumed 'lun_path' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 119 行.
+NOTIC: [8] Use of undefined constant tra_id - assumed 'tra_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 148 行.
+NOTIC: [8] Use of undefined constant tra_thumb - assumed 'tra_thumb' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 149 行.
+NOTIC: [8] Use of undefined constant tra_name - assumed 'tra_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [8] Use of undefined constant tra_id - assumed 'tra_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 164 行.
+NOTIC: [8] Use of undefined constant tra_thumb - assumed 'tra_thumb' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 165 行.
+NOTIC: [8] Use of undefined constant tra_name - assumed 'tra_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Use of undefined constant tra_price - assumed 'tra_price' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 168 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 219 行.
+NOTIC: [8] Use of undefined constant a_img - assumed 'a_img' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 220 行.
+NOTIC: [8] Use of undefined constant a_name - assumed 'a_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 223 行.
+NOTIC: [8] Use of undefined constant a_intro - assumed 'a_intro' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 224 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013770s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013837s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000668s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000757s ]
+
+[ 2016-11-14T22:42:49+08:00 ] ::1 /seeworld222/index.php/Home/Theme/theme/tra_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+NOTIC: [2] Declaration of Home\Controller\ThemeController::theme() should be compatible with Think\Controller::theme($theme) /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ThemeController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `travel` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `travel` INNER JOIN cat ON travel.cat_id = cat.cat_id  WHERE `tra_id` = '1' LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `traxc` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `traxc` WHERE ( tra_id ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `date` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `date` WHERE ( tra_id )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000202s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/674709428c2fc9be01a833685b4f026d.php 第 30 行.
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/674709428c2fc9be01a833685b4f026d.php 第 31 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/674709428c2fc9be01a833685b4f026d.php 第 117 行.
+NOTIC: [8] Use of undefined constant tra_limit - assumed 'tra_limit' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/674709428c2fc9be01a833685b4f026d.php 第 126 行.
+NOTIC: [8] Use of undefined constant tra_people - assumed 'tra_people' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/674709428c2fc9be01a833685b4f026d.php 第 126 行.
+NOTIC: [8] Use of undefined constant tra_limit - assumed 'tra_limit' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/674709428c2fc9be01a833685b4f026d.php 第 219 行.
+NOTIC: [8] Use of undefined constant tra_people - assumed 'tra_people' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/674709428c2fc9be01a833685b4f026d.php 第 219 行.
+NOTIC: [8] Use of undefined constant d_content - assumed 'd_content' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/674709428c2fc9be01a833685b4f026d.php 第 236 行.
+NOTIC: [8] Use of undefined constant d_content - assumed 'd_content' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/674709428c2fc9be01a833685b4f026d.php 第 236 行.
+NOTIC: [8] Use of undefined constant tra_limit - assumed 'tra_limit' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/674709428c2fc9be01a833685b4f026d.php 第 261 行.
+NOTIC: [8] Use of undefined constant tra_people - assumed 'tra_people' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/674709428c2fc9be01a833685b4f026d.php 第 261 行.
+NOTIC: [8] Use of undefined constant tra_limit - assumed 'tra_limit' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/674709428c2fc9be01a833685b4f026d.php 第 278 行.
+NOTIC: [8] Use of undefined constant tra_people - assumed 'tra_people' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/674709428c2fc9be01a833685b4f026d.php 第 278 行.
+NOTIC: [8] Use of undefined constant tra_limit - assumed 'tra_limit' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/674709428c2fc9be01a833685b4f026d.php 第 417 行.
+NOTIC: [8] Use of undefined constant tra_people - assumed 'tra_people' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/674709428c2fc9be01a833685b4f026d.php 第 417 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010837s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010881s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000530s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000574s ]
+
+[ 2016-11-14T22:42:49+08:00 ] ::1 /seeworld222/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+SQL: SHOW COLUMNS FROM `lunbo` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `lunbo` WHERE ( lun_show=1 ) ORDER BY lun_id desc LIMIT 0,3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `travel` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `travel` WHERE ( is_vip=1 ) ORDER BY tra_id desc LIMIT 0,4   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `travel` ORDER BY tra_id desc LIMIT 0,4   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `article` WHERE ( a_status=1 ) ORDER BY a_id desc LIMIT 0,4   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000259s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000333s ]
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 45 行.
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 118 行.
+NOTIC: [8] Use of undefined constant lun_path - assumed 'lun_path' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 119 行.
+NOTIC: [8] Use of undefined constant tra_id - assumed 'tra_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 148 行.
+NOTIC: [8] Use of undefined constant tra_thumb - assumed 'tra_thumb' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 149 行.
+NOTIC: [8] Use of undefined constant tra_name - assumed 'tra_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [8] Use of undefined constant tra_id - assumed 'tra_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 164 行.
+NOTIC: [8] Use of undefined constant tra_thumb - assumed 'tra_thumb' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 165 行.
+NOTIC: [8] Use of undefined constant tra_name - assumed 'tra_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Use of undefined constant tra_price - assumed 'tra_price' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 168 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 219 行.
+NOTIC: [8] Use of undefined constant a_img - assumed 'a_img' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 220 行.
+NOTIC: [8] Use of undefined constant a_name - assumed 'a_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 223 行.
+NOTIC: [8] Use of undefined constant a_intro - assumed 'a_intro' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 224 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014069s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000264s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000669s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000736s ]
+
+[ 2016-11-14T22:43:07+08:00 ] ::1 /seeworld222/index.php/Home/Plan/plan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+SQL: SHOW COLUMNS FROM `plan` [ RunTime:0.0014s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `plan` (`name`,`phone`,`qq`,`mail`,`plan_reg_day`,`plan_adult_num`,`plan_children_num`,`pname`,`pid`,`total_amount`) VALUES ('4556','11111111111','111111111','111111111@qq.com','2016-11-26','1','3','啊啊啊啊啊啊啊','1','555') [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `travel` [ RunTime:0.0012s ]
+SQL: UPDATE `travel` SET `tra_people`='4' WHERE ( tra_id=1 ) [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000596s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000641s ]
+
+[ 2016-11-14T22:43:30+08:00 ] ::1 /seeworld222/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `lunbo` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `lunbo` WHERE ( lun_show=1 ) ORDER BY lun_id desc LIMIT 0,3   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `travel` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `travel` WHERE ( is_vip=1 ) ORDER BY tra_id desc LIMIT 0,4   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `travel` ORDER BY tra_id desc LIMIT 0,4   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `article` WHERE ( a_status=1 ) ORDER BY a_id desc LIMIT 0,4   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000255s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000324s ]
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 45 行.
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 118 行.
+NOTIC: [8] Use of undefined constant lun_path - assumed 'lun_path' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 119 行.
+NOTIC: [8] Use of undefined constant tra_id - assumed 'tra_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 148 行.
+NOTIC: [8] Use of undefined constant tra_thumb - assumed 'tra_thumb' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 149 行.
+NOTIC: [8] Use of undefined constant tra_name - assumed 'tra_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [8] Use of undefined constant tra_id - assumed 'tra_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 164 行.
+NOTIC: [8] Use of undefined constant tra_thumb - assumed 'tra_thumb' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 165 行.
+NOTIC: [8] Use of undefined constant tra_name - assumed 'tra_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Use of undefined constant tra_price - assumed 'tra_price' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 168 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 219 行.
+NOTIC: [8] Use of undefined constant a_img - assumed 'a_img' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 220 行.
+NOTIC: [8] Use of undefined constant a_name - assumed 'a_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 223 行.
+NOTIC: [8] Use of undefined constant a_intro - assumed 'a_intro' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 224 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013447s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013497s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000585s ]
+
+[ 2016-11-14T22:43:30+08:00 ] ::1 /seeworld222/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+SQL: SHOW COLUMNS FROM `lunbo` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `lunbo` WHERE ( lun_show=1 ) ORDER BY lun_id desc LIMIT 0,3   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `travel` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `travel` WHERE ( is_vip=1 ) ORDER BY tra_id desc LIMIT 0,4   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `travel` ORDER BY tra_id desc LIMIT 0,4   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `article` WHERE ( a_status=1 ) ORDER BY a_id desc LIMIT 0,4   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000254s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000320s ]
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 45 行.
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 118 行.
+NOTIC: [8] Use of undefined constant lun_path - assumed 'lun_path' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 119 行.
+NOTIC: [8] Use of undefined constant tra_id - assumed 'tra_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 148 行.
+NOTIC: [8] Use of undefined constant tra_thumb - assumed 'tra_thumb' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 149 行.
+NOTIC: [8] Use of undefined constant tra_name - assumed 'tra_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [8] Use of undefined constant tra_id - assumed 'tra_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 164 行.
+NOTIC: [8] Use of undefined constant tra_thumb - assumed 'tra_thumb' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 165 行.
+NOTIC: [8] Use of undefined constant tra_name - assumed 'tra_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Use of undefined constant tra_price - assumed 'tra_price' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 168 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 219 行.
+NOTIC: [8] Use of undefined constant a_img - assumed 'a_img' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 220 行.
+NOTIC: [8] Use of undefined constant a_name - assumed 'a_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 223 行.
+NOTIC: [8] Use of undefined constant a_intro - assumed 'a_intro' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 224 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015131s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015183s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000677s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000733s ]
+
+[ 2016-11-14T22:43:31+08:00 ] ::1 /seeworld222/index.php/Home/Travel/travel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+SQL: SHOW COLUMNS FROM `travel` [ RunTime:0.0014s ]
+SQL: SELECT travel.*,`cat_name` FROM `travel` INNER JOIN cat  ON  travel.cat_id = cat.cat_id    [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: cat_id /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/TravelController.class.php 第 17 行.
+SQL: SELECT * FROM `cat` LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: cat_id /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/TravelController.class.php 第 23 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000117s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/67dd6de476508246a7963789e19e945e.php 第 31 行.
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/67dd6de476508246a7963789e19e945e.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008980s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009026s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000485s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000527s ]
+
+[ 2016-11-14T22:43:31+08:00 ] ::1 /seeworld222/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+SQL: SHOW COLUMNS FROM `lunbo` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `lunbo` WHERE ( lun_show=1 ) ORDER BY lun_id desc LIMIT 0,3   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `travel` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `travel` WHERE ( is_vip=1 ) ORDER BY tra_id desc LIMIT 0,4   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `travel` ORDER BY tra_id desc LIMIT 0,4   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `article` WHERE ( a_status=1 ) ORDER BY a_id desc LIMIT 0,4   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000282s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000365s ]
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 45 行.
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 118 行.
+NOTIC: [8] Use of undefined constant lun_path - assumed 'lun_path' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 119 行.
+NOTIC: [8] Use of undefined constant tra_id - assumed 'tra_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 148 行.
+NOTIC: [8] Use of undefined constant tra_thumb - assumed 'tra_thumb' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 149 行.
+NOTIC: [8] Use of undefined constant tra_name - assumed 'tra_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [8] Use of undefined constant tra_id - assumed 'tra_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 164 行.
+NOTIC: [8] Use of undefined constant tra_thumb - assumed 'tra_thumb' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 165 行.
+NOTIC: [8] Use of undefined constant tra_name - assumed 'tra_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Use of undefined constant tra_price - assumed 'tra_price' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 168 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 219 行.
+NOTIC: [8] Use of undefined constant a_img - assumed 'a_img' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 220 行.
+NOTIC: [8] Use of undefined constant a_name - assumed 'a_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 223 行.
+NOTIC: [8] Use of undefined constant a_intro - assumed 'a_intro' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 224 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020755s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020814s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000626s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000683s ]
+
+[ 2016-11-14T22:43:32+08:00 ] ::1 /seeworld222/index.php/Home/Theme/theme/tra_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+NOTIC: [2] Declaration of Home\Controller\ThemeController::theme() should be compatible with Think\Controller::theme($theme) /Applications/MAMP/htdocs/seeworld222/Application/Home/Controller/ThemeController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `travel` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `travel` INNER JOIN cat ON travel.cat_id = cat.cat_id  WHERE `tra_id` = '1' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `traxc` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `traxc` WHERE ( tra_id ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `date` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `date` WHERE ( tra_id )  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000244s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000314s ]
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/674709428c2fc9be01a833685b4f026d.php 第 30 行.
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/674709428c2fc9be01a833685b4f026d.php 第 31 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/674709428c2fc9be01a833685b4f026d.php 第 117 行.
+NOTIC: [8] Use of undefined constant tra_limit - assumed 'tra_limit' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/674709428c2fc9be01a833685b4f026d.php 第 126 行.
+NOTIC: [8] Use of undefined constant tra_people - assumed 'tra_people' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/674709428c2fc9be01a833685b4f026d.php 第 126 行.
+NOTIC: [8] Use of undefined constant tra_limit - assumed 'tra_limit' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/674709428c2fc9be01a833685b4f026d.php 第 219 行.
+NOTIC: [8] Use of undefined constant tra_people - assumed 'tra_people' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/674709428c2fc9be01a833685b4f026d.php 第 219 行.
+NOTIC: [8] Use of undefined constant d_content - assumed 'd_content' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/674709428c2fc9be01a833685b4f026d.php 第 236 行.
+NOTIC: [8] Use of undefined constant d_content - assumed 'd_content' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/674709428c2fc9be01a833685b4f026d.php 第 236 行.
+NOTIC: [8] Use of undefined constant tra_limit - assumed 'tra_limit' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/674709428c2fc9be01a833685b4f026d.php 第 261 行.
+NOTIC: [8] Use of undefined constant tra_people - assumed 'tra_people' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/674709428c2fc9be01a833685b4f026d.php 第 261 行.
+NOTIC: [8] Use of undefined constant tra_limit - assumed 'tra_limit' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/674709428c2fc9be01a833685b4f026d.php 第 278 行.
+NOTIC: [8] Use of undefined constant tra_people - assumed 'tra_people' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/674709428c2fc9be01a833685b4f026d.php 第 278 行.
+NOTIC: [8] Use of undefined constant tra_limit - assumed 'tra_limit' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/674709428c2fc9be01a833685b4f026d.php 第 417 行.
+NOTIC: [8] Use of undefined constant tra_people - assumed 'tra_people' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/674709428c2fc9be01a833685b4f026d.php 第 417 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011455s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011499s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000554s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000610s ]
+
+[ 2016-11-14T22:43:32+08:00 ] ::1 /seeworld222/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+SQL: SHOW COLUMNS FROM `lunbo` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `lunbo` WHERE ( lun_show=1 ) ORDER BY lun_id desc LIMIT 0,3   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `travel` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `travel` WHERE ( is_vip=1 ) ORDER BY tra_id desc LIMIT 0,4   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `travel` ORDER BY tra_id desc LIMIT 0,4   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `article` WHERE ( a_status=1 ) ORDER BY a_id desc LIMIT 0,4   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000327s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000432s ]
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 45 行.
+NOTIC: [8] Array to string conversion /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 46 行.
+NOTIC: [8] Use of undefined constant cat_id - assumed 'cat_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 118 行.
+NOTIC: [8] Use of undefined constant lun_path - assumed 'lun_path' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 119 行.
+NOTIC: [8] Use of undefined constant tra_id - assumed 'tra_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 148 行.
+NOTIC: [8] Use of undefined constant tra_thumb - assumed 'tra_thumb' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 149 行.
+NOTIC: [8] Use of undefined constant tra_name - assumed 'tra_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 151 行.
+NOTIC: [8] Use of undefined constant tra_id - assumed 'tra_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 164 行.
+NOTIC: [8] Use of undefined constant tra_thumb - assumed 'tra_thumb' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 165 行.
+NOTIC: [8] Use of undefined constant tra_name - assumed 'tra_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 167 行.
+NOTIC: [8] Use of undefined constant tra_price - assumed 'tra_price' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 168 行.
+NOTIC: [8] Use of undefined constant a_id - assumed 'a_id' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 219 行.
+NOTIC: [8] Use of undefined constant a_img - assumed 'a_img' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 220 行.
+NOTIC: [8] Use of undefined constant a_name - assumed 'a_name' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 223 行.
+NOTIC: [8] Use of undefined constant a_intro - assumed 'a_intro' /Applications/MAMP/htdocs/seeworld222/Application/Runtime/Cache/Home/2a94b8bda04ff446dcedd42276fc99ee.php 第 224 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013402s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013461s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000619s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000689s ]
+
+[ 2016-11-14T22:43:49+08:00 ] ::1 /seeworld222/index.php/Home/Plan/plan.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+SQL: SHOW COLUMNS FROM `plan` [ RunTime:0.0015s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/seeworld222/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `plan` (`name`,`phone`,`qq`,`mail`,`plan_reg_day`,`plan_adult_num`,`plan_children_num`,`pname`,`pid`,`total_amount`) VALUES ('123412','14444444444','444444444','444444444@qq.com','','2','4','啊啊啊啊啊啊啊','1','888') [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `travel` [ RunTime:0.0015s ]
+SQL: UPDATE `travel` SET `tra_people`='6' WHERE ( tra_id=1 ) [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000822s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000887s ]
+

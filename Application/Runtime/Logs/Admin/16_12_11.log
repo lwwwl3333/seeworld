@@ -1,0 +1,2462 @@
+[ 2016-12-11T19:03:05+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Service/serlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000883s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+
+[ 2016-12-11T19:03:05+08:00 ] 127.0.0.1 /seeworld/index.php/admin/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000167s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009599s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009672s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000981s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001028s ]
+
+[ 2016-12-11T19:03:08+08:00 ] 127.0.0.1 /seeworld/index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+
+[ 2016-12-11T19:03:08+08:00 ] 127.0.0.1 /seeworld/index.php/admin/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005198s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005240s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000196s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000553s ]
+
+[ 2016-12-11T19:03:14+08:00 ] 127.0.0.1 /seeworld/index.php/admin/login/checklogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE `password` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-12-11T19:03:14+08:00 ] 127.0.0.1 /seeworld/index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006462s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000296s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000747s ]
+
+[ 2016-12-11T19:03:14+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Index/head.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006729s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006806s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000506s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000553s ]
+
+[ 2016-12-11T19:03:14+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000248s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000352s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009289s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009357s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000697s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000759s ]
+
+[ 2016-12-11T19:03:14+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000203s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008382s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008460s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000184s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000224s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000704s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000770s ]
+
+[ 2016-12-11T19:03:19+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Service/serlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `service`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007724s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007769s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000631s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000679s ]
+
+[ 2016-12-11T19:03:20+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/service/seradd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0022s ]
+SQL: SELECT * FROM `city`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006908s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006955s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000693s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000786s ]
+
+[ 2016-12-11T19:04:13+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Service/serlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `service`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009588s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009651s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000724s ]
+
+[ 2016-12-11T19:04:15+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/service/attsintro.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+SQL: SHOW COLUMNS FROM `seratts` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `seratts`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006979s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007023s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000466s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000505s ]
+
+[ 2016-12-11T19:05:04+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005046s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005090s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000464s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000506s ]
+
+[ 2016-12-11T19:05:04+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Index/head.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000538s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005447s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005491s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000577s ]
+
+[ 2016-12-11T19:05:04+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000219s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000286s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006950s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000167s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000772s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000826s ]
+
+[ 2016-12-11T19:05:04+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007417s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007466s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000864s ]
+
+[ 2016-12-11T19:05:06+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Service/serlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `service`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006656s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006702s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000506s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000550s ]
+
+[ 2016-12-11T19:05:47+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/service/attsintro.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+SQL: SHOW COLUMNS FROM `seratts` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `seratts`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000109s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008848s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008924s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000647s ]
+
+[ 2016-12-11T19:09:05+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Service/serlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `service`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009472s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009518s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000545s ]
+
+[ 2016-12-11T19:09:08+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Service/delser/ser_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000481s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0013s ]
+SQL: DELETE FROM `service` WHERE ( ser_id = 1 ) [ RunTime:0.0017s ]
+SQL: SHOW COLUMNS FROM `seratts` [ RunTime:0.0012s ]
+SQL: DELETE FROM `seratts` WHERE ( ser_id = 1 ) [ RunTime:0.0002s ]
+
+[ 2016-12-11T19:09:08+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Service/serlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `service`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007028s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007075s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000164s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000540s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000651s ]
+
+[ 2016-12-11T19:12:08+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/service/seradd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `city`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000075s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000143s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009496s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009551s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000552s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000597s ]
+
+[ 2016-12-11T19:17:36+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Service/seradd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000094s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `city`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0010s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `service` (`ser_name`,`city_id`,`t_id`,`ser_price`,`ser_pos`,`ser_id`,`ori_img`,`ser_thumb`) VALUES ('慕尼黑周边10小时包车随心游','2','2','2350','慕尼黑','0','Public/upload/2016-12-11/584d35d000e82.png','Public/upload/thumb/584d35d000e82.png') [ RunTime:0.0003s ]
+
+[ 2016-12-11T19:17:36+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Service/seradd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000441s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `city`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009460s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009508s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000833s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000875s ]
+
+[ 2016-12-11T19:17:38+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Service/serlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `service`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007983s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008036s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000158s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000486s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000528s ]
+
+[ 2016-12-11T19:19:26+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Service/serlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000871s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `service`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000127s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000198s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011865s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011918s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000824s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000869s ]
+
+[ 2016-12-11T19:19:28+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Service/serattsadd/ser_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0026s ]
+SQL: SELECT * FROM `service` WHERE `ser_id` = 2 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `seratts` [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `seratts` WHERE `ser_id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `seratts` (`ser_id`,`ser_name`,`ser_img`,`ser_price`,`ser_pos`,`ser_add`) VALUES ('2','慕尼黑周边10小时包车随心游','Public/upload/2016-12-11/584d35d000e82.png','2350.00','慕尼黑','1481455168') [ RunTime:0.0001s ]
+
+[ 2016-12-11T19:19:28+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Service/serlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `service`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007081s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007136s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000642s ]
+
+[ 2016-12-11T19:19:30+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/service/attsintro.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `seratts` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `seratts`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000119s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000196s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009814s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009883s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000604s ]
+
+[ 2016-12-11T19:22:46+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Service/attsintro.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+SQL: SHOW COLUMNS FROM `seratts` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `seratts`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: ser_id /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Model.class.php 第 1294 行.
+SQL: SELECT * FROM `seratts` WHERE `ser_id` = null AND `sera_id` <> '2' LIMIT 1   [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `seratts` SET `ser_intro`='							&lt;p&gt;慕尼黑周边10小时包车随心游&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;',`ser_js`='							&lt;dl&gt;&lt;dt&gt;车型介绍&lt;/dt&gt;&lt;dd&gt;&lt;p&gt;&lt;strong&gt;▲ 车型&lt;/strong&gt;&lt;strong&gt;参考：&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;♛ 经济5座：马自达CX-5,福特福克斯两厢Focus LX,欧宝astra,大众高尔夫,起亚Cee\'d,丰田Yaris；&lt;/p&gt;&lt;p&gt;♛ 舒适5座：雪佛兰科帕奇 Captiva,雪铁龙Berlingo Multispace,丰田普锐斯,现代圣达菲,本田CRV,丰田凯美瑞；&lt;/p&gt;&lt;p&gt;♛ 豪华5座：宝马5系、,奥迪A6、奥迪A5、奔驰c250、奔驰CLA250、林肯town car、雷克萨斯ES300、英菲尼迪G37；&lt;/p&gt;&lt;p&gt;♛ 商务7座：丰田普瑞维亚(Previa)、丰田Sienna (塞纳）、本田奥德赛、马自达MPV、丰田汉兰达、现代Starex、雷诺grand espace；&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;☆&amp;nbsp;请根据人数和行李数选择合适的车型，避免乘坐不下，若实际乘车人数及行李数与下单时提供信息不符，导致无法乘坐，司机有权拒绝乘客上车，尽请谅解，车辆承载情况参考信息如下图：&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://b4-q.mafengwo.net/s9/M00/97/80/wKgBs1g9PY6AHWVTAANEAo_0bFE890.png?imageView2%2F2%2Fw%2F580%2Fh%2F11600%2Fq%2F100&quot;&gt;&lt;/p&gt;&lt;/dd&gt;&lt;/dl&gt;&lt;p&gt;&lt;a&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;',`ser_fy`='							&lt;dl&gt;&lt;dt&gt;费用包含&lt;/dt&gt;&lt;dd&gt;&lt;p&gt;1.市内300公里10小时的车辆使用费&lt;/p&gt;&lt;p&gt;2.油费、小费、过路费、高速费、停车费、进城费、拥堵费、保险费&lt;/p&gt;&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;费用不含&lt;/dt&gt;&lt;dd&gt;&lt;p&gt;1.景点门票费用&lt;/p&gt;&lt;p&gt;2.个人消费及其他未提及费用&lt;/p&gt;&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;特别说明&lt;/dt&gt;&lt;dd&gt;&lt;p&gt;1、包车时间：您支付的费用是工作时间用车10小时，如若用车超过10小时，需额外补偿￥200元/小时。&lt;br&gt;若超出工作时间（7:00—22:00），需额外增加夜间服务费（具体费用根据当地情况确定），包车当天如若没有在司导工作时间（10小时）内返回出发地，需额外增加司导的餐宿费用，具体费用与司导自行协商。&lt;br&gt;2、里程限定：您支付的费用包含市内300公里。如若超出里程需补偿￥4元/公里。&lt;br&gt;3、如若既超时又超里程：按金额最高的一项结算。比如超时1小时，超里程20公里，仅需依据超时补偿￥200元。（由司机现场收取额外费用）&lt;/p&gt;&lt;p&gt;【温馨提示】 晕车的乘客请预先做好准备，注意车内卫生，避免由您支付洗车的费用。&lt;/p&gt;&lt;/dd&gt;&lt;/dl&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;',`ser_yd`='							&lt;dt&gt;退改政策&lt;/dt&gt;&lt;dd&gt;距离服务时间48小时以上取消预定，全额退款；&lt;br&gt;距离服务时间24-48小时内取消预定，退还订单金额的50%；&lt;br&gt;距离服务时间不足24小时取消预定，不予退款；&lt;/dd&gt;&lt;dd&gt;&lt;br&gt;&lt;/dd&gt;&lt;dd&gt;&lt;dt&gt;重要提示&lt;/dt&gt;&lt;dd&gt;&lt;p&gt;至少提前24小时预订（北京时间）。&lt;/p&gt;&lt;p&gt;【提交订单】&lt;br&gt;1、下单时，请务必准确选择日期时间、车型、酒店名称地址，以便为您安排后续服务。&lt;br&gt;2、司机信息会在用车前48小时内推送到顾客的短信上，如未收到短信请与客服联系。短信内容作为享受包车服务的凭证，请妥善保存。&lt;br&gt;3、下单付款后请一定联系在线客服，以免延误用车。&lt;/p&gt;&lt;p&gt;【人数行李】&lt;br&gt;1、境外儿童（8周岁以下）必须乘坐儿童座椅，不能怀抱，所有儿童都要计入乘坐人数。（此条针对部分城市）&lt;br&gt;2、5座车最多坐4人，放置2个24寸行李箱。7座车最多乘坐6人，放置4个24寸行李箱。行李较多较大建议选择大型车，以免耽误行程。请如实填写乘车人数如发现现场超载，考虑到安全问题，司机保留处置的权利。 （每减少一名乘客可相应增加一件行李）&lt;br&gt;3、所有车型均不能超载超重。&lt;/p&gt;&lt;/dd&gt;&lt;/dd&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;',`ser_add`='1481455366' WHERE `sera_id` = 2 [ RunTime:0.0024s ]
+
+[ 2016-12-11T19:22:46+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Service/serlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `service`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000101s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000156s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010337s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010459s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000180s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000557s ]
+
+[ 2016-12-11T20:06:51+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Service/delser/ser_id/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000883s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0012s ]
+SQL: DELETE FROM `service` WHERE ( ser_id = 2 ) [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `seratts` [ RunTime:0.0010s ]
+SQL: DELETE FROM `seratts` WHERE ( ser_id = 2 ) [ RunTime:0.0001s ]
+
+[ 2016-12-11T20:06:51+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Service/serlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `service`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011937s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000639s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001164s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001270s ]
+
+[ 2016-12-11T20:07:49+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/service/seradd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `city`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011251s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011306s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000262s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000736s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000799s ]
+
+[ 2016-12-11T20:09:08+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Service/seradd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `city`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0010s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `service` (`ser_name`,`city_id`,`t_id`,`ser_price`,`ser_pos`,`ser_id`,`ori_img`,`ser_thumb`) VALUES ('慕尼黑周边10小时包车随心游','2','2','2350','慕尼黑','0','Public/upload/2016-12-11/584d41e474331.png','Public/upload/thumb/584d41e474331.png') [ RunTime:0.0002s ]
+
+[ 2016-12-11T20:09:08+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Service/seradd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `city`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009943s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009995s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000618s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001473s ]
+
+[ 2016-12-11T20:09:10+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Service/serlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `service`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006985s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007030s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000472s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000513s ]
+
+[ 2016-12-11T20:09:13+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Service/serattsadd/ser_id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `service` WHERE `ser_id` = 3 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `seratts` [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `seratts` WHERE `ser_id` = 3 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `seratts` (`ser_id`,`ser_name`,`ser_img`,`ser_price`,`ser_pos`,`ser_add`) VALUES ('3','慕尼黑周边10小时包车随心游','Public/upload/2016-12-11/584d41e474331.png','2350.00','慕尼黑','1481458153') [ RunTime:0.0019s ]
+
+[ 2016-12-11T20:09:13+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Service/serlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `service`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006373s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000456s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000496s ]
+
+[ 2016-12-11T20:09:14+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/service/attsintro.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+SQL: SHOW COLUMNS FROM `seratts` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `seratts`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007847s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007913s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000171s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000553s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000595s ]
+
+[ 2016-12-11T20:10:43+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Service/attsintro.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000496s ]
+SQL: SHOW COLUMNS FROM `seratts` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `seratts`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: ser_id /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Model.class.php 第 1294 行.
+SQL: SELECT * FROM `seratts` WHERE `ser_id` = null AND `sera_id` <> '3' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `seratts` SET `ser_intro`='							&lt;p&gt;【专车畅游】德国-慕尼黑周边10小时包车随心游&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;',`ser_js`='							&lt;p&gt;▲ 车型参考：&lt;/p&gt;&lt;p&gt;♛ 经济5座：马自达CX-5,福特福克斯两厢Focus LX,欧宝astra,大众高尔夫,起亚Cee\'d,丰田Yaris；&lt;/p&gt;&lt;p&gt;♛ 舒适5座：雪佛兰科帕奇 Captiva,雪铁龙Berlingo Multispace,丰田普锐斯,现代圣达菲,本田CRV,丰田凯美瑞；&lt;/p&gt;&lt;p&gt;♛ 豪华5座：宝马5系、,奥迪A6、奥迪A5、奔驰c250、奔驰CLA250、林肯town car、雷克萨斯ES300、英菲尼迪G37；&lt;/p&gt;&lt;p&gt;♛ 商务7座：丰田普瑞维亚(Previa)、丰田Sienna (塞纳）、本田奥德赛、马自达MPV、丰田汉兰达、现代Starex、雷诺grand espace；&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;☆&amp;nbsp;请根据人数和行李数选择合适的车型，避免乘坐不下，若实际乘车人数及行李数与下单时提供信息不符，导致无法乘坐，司机有权拒绝乘客上车，尽请谅解，车辆承载情况参考信息如下图：&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://b4-q.mafengwo.net/s9/M00/97/80/wKgBs1g9PY6AHWVTAANEAo_0bFE890.png?imageView2%2F2%2Fw%2F580%2Fh%2F11600%2Fq%2F100&quot;&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;',`ser_fy`='							&lt;dl&gt;&lt;dt&gt;费用包含&lt;/dt&gt;&lt;dd&gt;&lt;p&gt;1.市内300公里10小时的车辆使用费&lt;/p&gt;&lt;p&gt;2.油费、小费、过路费、高速费、停车费、进城费、拥堵费、保险费&lt;/p&gt;&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;费用不含&lt;/dt&gt;&lt;dd&gt;&lt;p&gt;1.景点门票费用&lt;/p&gt;&lt;p&gt;2.个人消费及其他未提及费用&lt;/p&gt;&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;特别说明&lt;/dt&gt;&lt;dd&gt;&lt;p&gt;1、包车时间：您支付的费用是工作时间用车10小时，如若用车超过10小时，需额外补偿￥200元/小时。&lt;br&gt;若超出工作时间（7:00—22:00），需额外增加夜间服务费（具体费用根据当地情况确定），包车当天如若没有在司导工作时间（10小时）内返回出发地，需额外增加司导的餐宿费用，具体费用与司导自行协商。&lt;br&gt;2、里程限定：您支付的费用包含市内300公里。如若超出里程需补偿￥4元/公里。&lt;br&gt;3、如若既超时又超里程：按金额最高的一项结算。比如超时1小时，超里程20公里，仅需依据超时补偿￥200元。（由司机现场收取额外费用）&lt;/p&gt;&lt;p&gt;【温馨提示】 晕车的乘客请预先做好准备，注意车内卫生，避免由您支付洗车的费用。&lt;/p&gt;&lt;/dd&gt;&lt;/dl&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;',`ser_yd`='							&lt;p&gt;距离服务时间48小时以上取消预定，全额退款；&lt;br&gt;距离服务时间24-48小时内取消预定，退还订单金额的50%；&lt;br&gt;距离服务时间不足24小时取消预定，不予退款；&lt;/p&gt;&lt;dl&gt;&lt;dt&gt;重要提示&lt;/dt&gt;&lt;dd&gt;&lt;p&gt;至少提前24小时预订（北京时间）。&lt;/p&gt;&lt;p&gt;【提交订单】&lt;br&gt;1、下单时，请务必准确选择日期时间、车型、酒店名称地址，以便为您安排后续服务。&lt;br&gt;2、司机信息会在用车前48小时内推送到顾客的短信上，如未收到短信请与客服联系。短信内容作为享受包车服务的凭证，请妥善保存。&lt;br&gt;3、下单付款后请一定联系在线客服，以免延误用车。&lt;/p&gt;&lt;p&gt;【人数行李】&lt;br&gt;1、境外儿童（8周岁以下）必须乘坐儿童座椅，不能怀抱，所有儿童都要计入乘坐人数。（此条针对部分城市）&lt;br&gt;2、5座车最多坐4人，放置2个24寸行李箱。7座车最多乘坐6人，放置4个24寸行李箱。行李较多较大建议选择大型车，以免耽误行程。请如实填写乘车人数如发现现场超载，考虑到安全问题，司机保留处置的权利。 （每减少一名乘客可相应增加一件行李）&lt;br&gt;3、所有车型均不能超载超重。&lt;/p&gt;&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;br&gt;&lt;/dl&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;',`ser_add`='1481458243' WHERE `sera_id` = 3 [ RunTime:0.0003s ]
+
+[ 2016-12-11T20:10:44+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Service/serlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `service`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006893s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006938s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000510s ]
+
+[ 2016-12-11T20:14:38+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/service/seradd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000657s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `city`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007118s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007160s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000486s ]
+
+[ 2016-12-11T20:16:11+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Service/seradd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `city`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0011s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `service` (`ser_name`,`city_id`,`t_id`,`ser_price`,`ser_pos`,`ser_id`,`ori_img`,`ser_thumb`) VALUES ('柏林司兼导一日游（可选5座/7座车）','1','3','1678','柏林','0','Public/upload/2016-12-11/584d438bcc766.png','Public/upload/thumb/584d438bcc766.png') [ RunTime:0.0003s ]
+
+[ 2016-12-11T20:16:11+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Service/seradd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `city`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010321s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010376s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000220s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000682s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000739s ]
+
+[ 2016-12-11T20:16:13+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Service/serlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `service`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007524s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007569s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000138s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000495s ]
+
+[ 2016-12-11T20:19:07+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Service/serattsadd/ser_id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000834s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `service` WHERE `ser_id` = 4 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `seratts` [ RunTime:0.0011s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `seratts` WHERE `ser_id` = 4 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `seratts` (`ser_id`,`ser_name`,`ser_img`,`ser_price`,`ser_pos`,`ser_add`) VALUES ('4','柏林司兼导一日游（可选5座/7座车）','Public/upload/2016-12-11/584d438bcc766.png','1678.00','柏林','1481458747') [ RunTime:0.0002s ]
+
+[ 2016-12-11T20:19:07+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Service/serlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `service`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013363s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013413s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000977s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001029s ]
+
+[ 2016-12-11T20:19:14+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/service/attsintro.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000471s ]
+SQL: SHOW COLUMNS FROM `seratts` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `seratts`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009942s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000188s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000540s ]
+
+[ 2016-12-11T20:21:02+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Service/attsintro.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `seratts` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `seratts`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: ser_id /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Model.class.php 第 1294 行.
+SQL: SELECT * FROM `seratts` WHERE `ser_id` = null AND `sera_id` <> '4' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `seratts` SET `ser_intro`='							&lt;p&gt;【中文司导】柏林包车一日游（可选5座/7座车）&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;',`ser_js`='							&lt;dl&gt;&lt;dt&gt;车型介绍&lt;/dt&gt;&lt;dd&gt;&lt;p&gt;舒适型轿车：丰田、福特或同级&lt;br&gt;&lt;img src=&quot;http://n2-q.mafengwo.net/s9/M00/1B/4B/wKgBs1eHUbyAVmioAADGAO82dvs364.png?imageView2%2F2%2Fw%2F580%2Fh%2F11600%2Fq%2F100&quot;&gt;&lt;/p&gt;&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;接送区域&lt;/dt&gt;&lt;dd&gt;&lt;p&gt;柏林市区或市周边任意地点&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://c2-q.mafengwo.net/s9/M00/56/19/wKgBs1eDWAuAYAD_AAmJg2y-qXw63.jpeg?imageView2%2F2%2Fw%2F580%2Fh%2F11600%2Fq%2F100&quot;&gt;&lt;/p&gt;&lt;/dd&gt;&lt;/dl&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;',`ser_fy`='							&lt;dl&gt;&lt;dt&gt;费用包含&lt;/dt&gt;&lt;dd&gt;&lt;p&gt;1.推荐游玩线路，用户可自行选择；&lt;br&gt;2.可免费提供儿童座椅；&lt;br&gt;3.全程中文翻译服务；&lt;br&gt;4.包含车辆所需费用（如燃油费、停车费、高速费、进城费、过路费、小费）；&lt;br&gt;5.配备车载充电装置；&lt;br&gt;6.行李搬运；&lt;br&gt;（以上费用已包含所有常规费用；此外，您无需另外再向司机支付其他任何费用。）&lt;/p&gt;&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;费用不含&lt;/dt&gt;&lt;dd&gt;&lt;p&gt;1.预订酒店、景点门票、温泉体验费用；&lt;br&gt;2.包车服务时涉及到的门票及景点费用；&lt;br&gt;3.签证费及保险费（建议用户出行前自行购买境外旅游保险）；&lt;br&gt;4.因交通延阻、罢工、大风、大雾、航班取消或更改时间等不可抗力原因所引致的额外费用。&lt;br&gt;5.行程中产生的其它一切额外费用及个人消费。&lt;br&gt;6.晕车乘客需提前做好乘车准备，注意保持车内整洁，以此避免乘车期间产生额外的洗车费用。&lt;/p&gt;&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;特别说明&lt;/dt&gt;&lt;dd&gt;&lt;p&gt;1.关于服务时间：服务时间开始于早上10点以前，用车时间为10小时；&lt;br&gt;2.用车里程为300公里，超出服务时间需补交超时费用，超时每小时费用为当天用车费用的15%，超出公里数按照3元人民币/公里收取&amp;nbsp;&lt;br&gt;3.关于安全座椅：5岁以下儿童可安排一台儿童座椅，请在备注中标注；2台安全座椅含以上需要加收一定费用，请与客服联系确认儿童安全座椅的具体信息；&lt;br&gt;4.关于跨城：跨城市长途包车需最后一天给予充足时间让司兼导返回出发城市，否则加收空驶费。&lt;/p&gt;&lt;/dd&gt;&lt;/dl&gt;&lt;p&gt;&lt;a&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;',`ser_yd`='							&lt;p&gt;1. 距离服务时间48小时以上取消预订，全额退款；&lt;br&gt;2. 距离服务时间24-48小时取消预订，退还订单金额的50&lt;br&gt;3. 距离服务时间24小时内取消预订，不予退款；&lt;br&gt;4. 如因客户自身原因，更改或取消订单：提前3个工作日含以上取消及更改，免收退改费；提前2个工作日取消及更改，收取订单金额的50%作为违约金；提前1个工作日取消及更改，收取订单金额的100%作为违约金&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;',`ser_add`='1481458862' WHERE `sera_id` = 4 [ RunTime:0.0003s ]
+
+[ 2016-12-11T20:21:03+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Service/serlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `service`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008294s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008348s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000369s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000783s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000830s ]
+
+[ 2016-12-11T20:27:01+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/service/seradd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `city`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007776s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007851s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000544s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000585s ]
+
+[ 2016-12-11T20:31:22+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Service/serlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `service`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009466s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009514s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001123s ]
+
+[ 2016-12-11T20:31:22+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/service/seradd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `city`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006748s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006794s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000484s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000525s ]
+
+[ 2016-12-11T20:34:24+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Service/serlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `service`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000192s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010526s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010592s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000757s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001284s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001378s ]
+
+[ 2016-12-11T20:35:48+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/service/seradd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `city`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006844s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006887s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000138s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-12-11T20:38:29+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Service/seradd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `city`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0009s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `service` (`ser_name`,`city_id`,`coun_id`,`t_id`,`ser_price`,`ser_pos`,`ser_id`,`ori_img`,`ser_thumb`) VALUES ('新天鹅堡门票预订 免排队','2','1','5','30','Neuschwansteinstraße 20 87645 Schwangau','0','Public/upload/2016-12-11/584d48c5179cb.png','Public/upload/thumb/584d48c5179cb.png') [ RunTime:0.0003s ]
+
+[ 2016-12-11T20:38:29+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Service/seradd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `city`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010508s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010561s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001381s ]
+
+[ 2016-12-11T20:38:31+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Service/serlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `service`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007460s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007503s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000481s ]
+
+[ 2016-12-11T20:38:35+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Service/serattsadd/ser_id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `service` WHERE `ser_id` = 5 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `seratts` [ RunTime:0.0014s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `seratts` WHERE `ser_id` = 5 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `seratts` (`ser_id`,`ser_name`,`ser_img`,`ser_price`,`ser_pos`,`ser_add`) VALUES ('5','新天鹅堡门票预订 免排队','Public/upload/2016-12-11/584d48c5179cb.png','30.00','Neuschwansteinstraße 20 87645 Schwangau','1481459915') [ RunTime:0.0002s ]
+
+[ 2016-12-11T20:38:35+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Service/serlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000447s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `service`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000103s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006438s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006485s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000492s ]
+
+[ 2016-12-11T20:38:37+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/service/attsintro.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `seratts` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `seratts`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010052s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010116s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000510s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000570s ]
+
+[ 2016-12-11T20:40:16+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Service/attsintro.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+SQL: SHOW COLUMNS FROM `seratts` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `seratts`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: ser_id /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Model.class.php 第 1294 行.
+SQL: SELECT * FROM `seratts` WHERE `ser_id` = null AND `sera_id` <> '5' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `seratts` SET `ser_intro`='							&lt;p&gt;新天鹅堡是19世纪晚期的建筑，位于德国巴伐利亚西南方，距离福森镇约4公里。这座白色城堡耸立在高高的山上，其四周环山和湖泊。一年四季，风光各异，数年来作为德国的经典旅游景点，吸引着全世界的游客。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;',`ser_js`='							&lt;p&gt;&lt;img src=&quot;http://b3-q.mafengwo.net/s9/M00/43/6A/wKgBs1gZjlWAM2dPAApxefnhxng49.jpeg?imageView2%2F2%2Fw%2F580%2Fh%2F11600%2Fq%2F100&quot;&gt;&lt;/p&gt;&lt;p&gt;注意事项：&lt;/p&gt;&lt;p&gt;由于购票处在山脚下，由山下到山上需要30-40分钟左右路程，请务必在您预留的参观时间提前一个小时到达新天鹅堡购票处进行购票。例如：您预计9:30入堡，请最晚8:30前到达购票处购票，过期预约作废，不给予退款。&lt;/p&gt;&lt;p&gt;如您晚于电子票上的购票时间到达购票窗口，预定号失效，则无法购票。请务必严格按照电子预订单上的购票时间之前购票。购票当天务必使用。如果客人预订的时间段已满，官方会自行往下推一个时段。&lt;/p&gt;&lt;p&gt;电子预订单部分，解析图：&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://a4-q.mafengwo.net/s9/M00/43/FF/wKgBs1gZjxCADR2iAAU9PQlCt9U41.jpeg?imageView2%2F2%2Fw%2F580%2Fh%2F11600%2Fq%2F100&quot;&gt;&lt;/p&gt;&lt;p&gt;产品详情：&lt;/p&gt;&lt;p&gt;&amp;nbsp;由于此产品需要现场支付门票费用（门票款：12欧元/成人，官方手续费：1.8欧元/人[成人与儿童均收取1.8欧元/人的费用]），本店只收取一个代预定费用（要支付人工成本）。预订成功后请到指定购票处规定时间内购买门票。&lt;/p&gt;&lt;p&gt;【自驾客人须知】&lt;/p&gt;&lt;p&gt;停车场：&lt;/p&gt;&lt;p&gt;停车场在山脚上，私家车、大巴车等只能停在山脚上的停车场，从换票处到山上的新天鹅堡只能步行或乘坐公交车。&lt;/p&gt;&lt;p&gt;在旧天鹅堡有4个停车点：&lt;/p&gt;&lt;p&gt;P1 = next to Rasthaus&lt;/p&gt;&lt;p&gt;P2 =&amp;nbsp; at the roundabout&lt;/p&gt;&lt;p&gt;P3 = next to the cafe Kainz&lt;/p&gt;&lt;p&gt;P4 = next to the lake Alpsee,此停车点在新天鹅堡官方售票处旁边。&lt;/p&gt;&lt;p&gt;停车费参考如下：&lt;/p&gt;&lt;p&gt;1、小车6欧&lt;/p&gt;&lt;p&gt;2、公交/马车15欧&amp;nbsp;&lt;/p&gt;&lt;p&gt;3、旅行车和野营车之类的8.5欧&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;&lt;p&gt;4、摩托车之类的2欧&lt;/p&gt;&lt;p&gt;景点地图：&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://c3-q.mafengwo.net/s9/M00/44/35/wKgBs1gZj3KAFb4VAAS5DE0ovrM40.jpeg?imageView2%2F2%2Fw%2F580%2Fh%2F11600%2Fq%2F100&quot;&gt;&lt;/p&gt;&lt;p&gt;参观时间：&lt;/p&gt;&lt;p&gt;4月-10月15日：9h00-18h00，间隔时间5分钟。例如：9h05、9h10、9h15……&lt;/p&gt;&lt;p&gt;10月16日到次年3月：10h00-16h00，间隔时间5分钟。例如：10h05、10h10、10h15……&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;关闭日期：1月1日；12月24/25/31日&lt;/p&gt;&lt;p&gt;现场购票所需材料：1） 预订单打印件：就是邮件里收到的pdf，请务必打印出来，彩色、黑白都可；&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;2） 现场支付13.8欧/每人，（门票款：12欧元/成人，官方手续费：1.8欧元/成人），现金支付或信用卡刷卡！&amp;nbsp;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;到现场购票：也就是新天鹅堡山下官方的售票处。P4停车场旁边（就是下面这个白色的房子）售票处有两个排队的通道，分别是网上预订通道和非预订通道，在本店预定的新天鹅堡顾客请走预定通道。&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://n3-q.mafengwo.net/s9/M00/44/69/wKgBs1gZj7uAedQiAAatdVfVK1U26.jpeg?imageView2%2F2%2Fw%2F580%2Fh%2F11600%2Fq%2F100&quot;&gt;&lt;/p&gt;&lt;p&gt;门票使用须知：&lt;/p&gt;&lt;p&gt;拿到实体票后，请仔细看实体票背面的2处信息，1、几位数字&amp;nbsp; 2、参观时间。&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;请在票面参观时间前到达天鹅堡入口，并注意电子屏上的滚动的信息，如显示屏上显示您门票上的数字，即可扫码入内。&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://b3-q.mafengwo.net/s9/M00/44/83/wKgBs1gZj9CAbvZcAAG616NQrUY98.jpeg?imageView2%2F2%2Fw%2F580%2Fh%2F11600%2Fq%2F100&quot;&gt;&lt;/p&gt;&lt;p&gt;购票处地图：&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://a2-q.mafengwo.net/s9/M00/44/95/wKgBs1gZj-GAQcjIAALxnPnCrmg78.jpeg?imageView2%2F2%2Fw%2F580%2Fh%2F11600%2Fq%2F100&quot;&gt;&lt;/p&gt;&lt;p&gt;有效期:预定日期当天有效。&lt;/p&gt;&lt;p&gt;注意：预定后取消或修改订单将不退款。&lt;/p&gt;&lt;p&gt;因个人原因迟到或未参加行程，不予负责且不退款。&lt;/p&gt;&lt;p&gt;注意事项：&lt;/p&gt;&lt;p&gt;1.城堡内部的一些房间，以及博物馆内是禁止拍照的，请游客遵守相关规定。&lt;/p&gt;&lt;p&gt;2.慕尼黑天气变化较快，降水量也偏大，最好随身携带一件防雨防风外套，以防天气突变。&lt;/p&gt;&lt;p&gt;3.门票仅仅是进新天鹅堡的，不包含上山下山的马车或汽车交通费，车票都是要另外去买的；&lt;/p&gt;&lt;p&gt;4.行李箱，手提箱和背包不允许被带入城堡内，巴伐利亚国王博物馆也一样。城堡内没有存储行李箱，手提箱和背包的设施。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;',`ser_fy`='							&lt;dl&gt;&lt;dt&gt;费用包含&lt;/dt&gt;&lt;dd&gt;&lt;p&gt;新天鹅堡门票&lt;/p&gt;&lt;p&gt;中文语音讲解器&lt;/p&gt;&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;费用不含&lt;/dt&gt;&lt;dd&gt;&lt;p&gt;交通费、个人消费及价格包含中未提及的任何费用&lt;/p&gt;&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;特别说明&lt;/dt&gt;&lt;dd&gt;&lt;p&gt;1. 优惠政策：18岁（不含）以下儿童和青少年免去门票款，但需支付官方手续费：1.8欧元/人&lt;br&gt;注意：享受免票政策的客人，请携带护照，以便抽查！&lt;/p&gt;&lt;/dd&gt;&lt;/dl&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;',`ser_yd`='							&lt;dl&gt;&lt;dd&gt;&lt;p&gt;1.所需资料：预订人（如多人预订，提供其中一位预订人信息即可）护照上的中英文姓名、境外有效联系方式、有效邮箱、&lt;strong&gt;参观日期及参观时间。&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;2.18岁以下，即使免费，也是需要提前预定的，客人持票去售票窗口换票，方可进入。&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;3.此票需要二次确认，至少提前4个工作日下单，受理时间2-3个工作日左右，下单后，本店会立即发预定到境外，收到确认后，会将确认单发到预留邮箱，届时请注意查收！&lt;/p&gt;&lt;/dd&gt;&lt;/dl&gt;&lt;p&gt;&lt;a&gt;&lt;/a&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;',`ser_add`='1481460016' WHERE `sera_id` = 5 [ RunTime:0.0004s ]
+
+[ 2016-12-11T20:40:16+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Service/serlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `service`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008383s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008439s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000156s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000582s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000634s ]
+
+[ 2016-12-11T20:53:04+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Service/serlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000779s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+
+[ 2016-12-11T20:53:04+08:00 ] 127.0.0.1 /seeworld/index.php/admin/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010497s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010560s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001043s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000981s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001028s ]
+
+[ 2016-12-11T20:53:06+08:00 ] 127.0.0.1 /seeworld/index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+
+[ 2016-12-11T20:53:06+08:00 ] 127.0.0.1 /seeworld/index.php/admin/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005323s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005366s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000487s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000528s ]
+
+[ 2016-12-11T20:53:12+08:00 ] 127.0.0.1 /seeworld/index.php/admin/login/checklogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0049s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE `password` = 'admin' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-12-11T20:53:12+08:00 ] 127.0.0.1 /seeworld/index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000043s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006815s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006883s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000595s ]
+
+[ 2016-12-11T20:53:12+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Index/head.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000762s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006120s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006168s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000473s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000515s ]
+
+[ 2016-12-11T20:53:12+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007268s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000162s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000663s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000719s ]
+
+[ 2016-12-11T20:53:12+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000249s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000326s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008716s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008779s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000180s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000672s ]
+
+[ 2016-12-11T20:53:15+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Service/serlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000479s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `service`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010086s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010150s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000532s ]
+
+[ 2016-12-11T20:53:17+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/service/seradd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `city`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008347s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008393s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000154s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000490s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000532s ]
+
+[ 2016-12-11T21:00:00+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Service/seradd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001820s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001407s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `city`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0011s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `service` (`ser_name`,`city_id`,`coun_id`,`t_id`,`ser_price`,`ser_pos`,`ser_id`,`ori_img`,`ser_thumb`) VALUES ('柏灵城中心假日酒店','1','1','4','683','Stresemannstr. 49, Berlin, Germany','0','Public/upload/2016-12-11/584d4dd08ebfb.jpeg','Public/upload/thumb/584d4dd08ebfb.jpeg') [ RunTime:0.0003s ]
+
+[ 2016-12-11T21:00:00+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Service/seradd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `city`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012450s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012522s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000797s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001098s ]
+
+[ 2016-12-11T21:00:02+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Service/serlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `service`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000120s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009442s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000159s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000483s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000530s ]
+
+[ 2016-12-11T21:00:06+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Service/serattsadd/ser_id/6.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `service` WHERE `ser_id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `seratts` [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `seratts` WHERE `ser_id` = 6 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `seratts` (`ser_id`,`ser_name`,`ser_img`,`ser_price`,`ser_pos`,`ser_add`) VALUES ('6','柏灵城中心假日酒店','Public/upload/2016-12-11/584d4dd08ebfb.jpeg','683.00','Stresemannstr. 49, Berlin, Germany','1481461206') [ RunTime:0.0002s ]
+
+[ 2016-12-11T21:00:06+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Service/serlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000457s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `service`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007372s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007418s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000503s ]
+
+[ 2016-12-11T21:00:08+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/service/attsintro.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000433s ]
+SQL: SHOW COLUMNS FROM `seratts` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `seratts`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007695s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007776s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000193s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2016-12-11T21:03:47+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Service/attsintro.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001191s ]
+SQL: SHOW COLUMNS FROM `seratts` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `seratts`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: ser_id /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Model.class.php 第 1294 行.
+SQL: SELECT * FROM `seratts` WHERE `ser_id` = null AND `sera_id` <> '6' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `seratts` SET `ser_intro`='							&lt;p&gt;智选假日 Holiday Inn Express，隶属洲际酒店集团，经济型快捷酒店品牌。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;',`ser_js`='							&lt;p&gt;Holiday Inn Express Berlin City Centre为商务和休闲旅游游客而设计，位于得天独厚的克罗伊茨贝格地区，是本市最受欢迎的酒店之一。 在这里，旅客们可轻松前往市区内各大旅游、购物、餐饮地点。 酒店优越的位置让游人前往市区内的热门景点变得方便快捷。 在Holiday Inn Express Berlin City Centre,一切都是为了营造宾至如归的氛围。为此，Holiday Inn Express Berlin City Centre提供最优质的服务和最优良的设施。 为了给客人提供更舒适和更便利的服务，酒店配备了商业中心, 商店, 餐厅, 停车场, 洗衣服务/干洗。 所有的客房都以舒适度为首要标准，一切设施都以此为目标。 除此之外，酒店各种娱乐设施一定会让您在留宿期间享受更多乐趣。 Holiday Inn Express Berlin City Centre地理位置优越，能为客人提供一流服务。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;',`ser_fy`='							',`ser_yd`='							&lt;p&gt;最早入住:&amp;nbsp;&lt;strong&gt;15:00 &amp;nbsp;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;最晚离店:&amp;nbsp;&lt;strong&gt;12:00 &amp;nbsp;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;酒店规模:&amp;nbsp;&lt;strong&gt;256&lt;/strong&gt;间客房&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;',`ser_add`='1481461427' WHERE `sera_id` = 6 [ RunTime:0.0002s ]
+
+[ 2016-12-11T21:03:47+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Service/serlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000427s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `service`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000255s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010397s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010461s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000438s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000905s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000963s ]
+
+[ 2016-12-11T21:06:33+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/service/seradd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001282s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `city`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000083s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012147s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012225s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000541s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000602s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001238s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001316s ]
+
+[ 2016-12-11T21:08:12+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Service/seradd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000997s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001048s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `city`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0010s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `service` (`ser_name`,`city_id`,`coun_id`,`t_id`,`ser_price`,`ser_pos`,`ser_id`,`ori_img`,`ser_thumb`) VALUES ('柏林因特尔城市酒店','1','1','4','498','Katharina-Paulus-Str. 5','0','Public/upload/2016-12-11/584d4fbcc9618.jpeg','Public/upload/thumb/584d4fbcc9618.jpeg') [ RunTime:0.0003s ]
+
+[ 2016-12-11T21:08:13+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Service/seradd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000468s ]
+SQL: SHOW COLUMNS FROM `city` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `city`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009806s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009854s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000862s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000906s ]
+
+[ 2016-12-11T21:08:14+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Service/serlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `service`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000149s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007835s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007883s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000168s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000604s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000663s ]
+
+[ 2016-12-11T21:08:17+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Service/serattsadd/ser_id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000429s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `service` WHERE `ser_id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `seratts` [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT * FROM `seratts` WHERE `ser_id` = 7 LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `seratts` (`ser_id`,`ser_name`,`ser_img`,`ser_price`,`ser_pos`,`ser_add`) VALUES ('7','柏林因特尔城市酒店','Public/upload/2016-12-11/584d4fbcc9618.jpeg','498.00','Katharina-Paulus-Str. 5','1481461697') [ RunTime:0.0002s ]
+
+[ 2016-12-11T21:08:17+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Service/serlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `service`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006869s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006912s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000647s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000705s ]
+
+[ 2016-12-11T21:08:18+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/service/attsintro.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+SQL: SHOW COLUMNS FROM `seratts` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `seratts`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000093s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000157s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007777s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007835s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000493s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000534s ]
+
+[ 2016-12-11T21:10:12+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Service/attsintro.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000549s ]
+SQL: SHOW COLUMNS FROM `seratts` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `seratts`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: ser_id /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Model.class.php 第 1294 行.
+SQL: SELECT * FROM `seratts` WHERE `ser_id` = null AND `sera_id` <> '7' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `seratts` SET `ser_intro`='							&lt;p&gt;InterCityHotel Berlin Hauptbahnhof&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;',`ser_js`='							&lt;p&gt;【必读】&lt;br&gt;--柏林因特尔城市酒店坐落在市中心，距离柏林火车站仅有200米。&lt;br&gt;--酒店每天早晨提供新鲜的自助早餐。&lt;br&gt;--距离酒店不到5分钟步行路程内拥有各种餐馆。&lt;br&gt;--酒店距离勃兰登堡门有1.5公里的路程，距离国会大楼仅有10分钟步行路程，距离波茨坦广场不到30分钟步行路程。&lt;br&gt;【贴士】&lt;br&gt;--酒店每位客人均可免费获赠柏林公共交通的城市票。&lt;br&gt;--酒店各处均提供免费wifi。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;',`ser_fy`='							',`ser_yd`='							&lt;p&gt;最早入住:&amp;nbsp;&lt;strong&gt;14:00&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;最晚离店:&amp;nbsp;&lt;strong&gt;12:00&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;建成于:&amp;nbsp;&lt;strong&gt;2013&lt;/strong&gt;年&lt;/p&gt;&lt;p&gt;酒店规模:&amp;nbsp;&lt;strong&gt;412&lt;/strong&gt;间客房&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;',`ser_add`='1481461812' WHERE `sera_id` = 7 [ RunTime:0.0002s ]
+
+[ 2016-12-11T21:10:12+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Service/serlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `service` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `service`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000161s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007972s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000139s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000894s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000955s ]
+
+[ 2016-12-11T21:26:30+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Travel/tralist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000919s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+SQL: SHOW COLUMNS FROM `travel` [ RunTime:0.0014s ]
+SQL: SELECT travel.*,`cat_name` FROM `travel` INNER JOIN cat  ON  travel.cat_id = cat.cat_id    [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000095s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000171s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010039s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010093s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000882s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000929s ]
+
+[ 2016-12-11T21:26:33+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Travel/traadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008211s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008297s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000567s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000635s ]
+
+[ 2016-12-11T21:28:49+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Travel/traadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000885s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `travel` [ RunTime:0.0013s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `travel` (`tra_name`,`tra_price`,`tra_ld`,`cat_id`,`tra_limit`,`tra_day`,`tra_lx`,`price_state`,`tra_notice`,`is_vip`,`tra_thumb`,`add_time`) VALUES ('德国新天鹅堡+林德霍夫宫一日游 (慕尼黑出发)','375','1、参观壮丽的城堡： 新天鹅堡与林德霍夫宫  2、发现路威二世童年的家：高天鹅堡  3、拜访巴伐利亚小镇奥伯阿默高','2','46','1','集合地点：慕尼黑火车站广场（Bahnhofplatz），Karstadt 购物中心的前面','1、全程豪华旅游巴士往返交通费用
+
+2、全程导游陪伴(英语/德语)','1、至少提前3天预订，预订时请在备注填写您的护照中文姓名+拼音、有效的联系方式和电子邮箱。
+
+2、本产品支持预定当日游览，请在当日北京时间16：00之前完成支付，在信息完整的情况下，我们会迅速给您完成确认并发送给您
+
+3、凭【确认单】打印件享受本次服务。','1','/Public/upload/2016-12-11/584d5491a4d1d.jpeg','1481462929') [ RunTime:0.0003s ]
+
+[ 2016-12-11T21:28:49+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Travel/up.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `travel` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `travel` ORDER BY tra_id desc LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000135s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009497s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009546s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001044s ]
+
+[ 2016-12-11T21:30:25+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Upload/upload2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000921s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000902s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000969s ]
+
+[ 2016-12-11T21:30:27+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Travel/up.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000502s ]
+SQL: SHOW COLUMNS FROM `traxc` [ RunTime:0.0025s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `traxc` (`tra_name`,`tra_id`,`day_1`) VALUES ('德国新天鹅堡+林德霍夫宫一日游 (慕尼黑出发)','5','&lt;p&gt;此行程览由慕尼黑出发，将搭乘舒适的空调旅游巴士，前往巴伐利亚王国君主路德维希二世的壮观城堡新天鹅堡以及贴近人心的林德霍夫城堡。&lt;/p&gt;&lt;p&gt;新天鹅堡位于美轮美奂的阿尔卑斯山山脚，并拥有德国境内最佳的景致之一。您在此有大约 4 小时的时间，舒适地探索每一个令人喷喷称奇的细节。&lt;/p&gt;&lt;p&gt;林德霍夫城堡为路德维希二世唯一完成的城堡。此外，您也有机会在奥伯阿默高短暂停留，在这个风景如画的小镇和周围地区拍照并购物。&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;http://localhost/seeworld/Public/admin/tcks/2016-12-11/20161211093025.jpeg&quot; alt=&quot;城堡&quot; style=&quot;max-width:100%;&quot;&gt;&lt;/p&gt;&lt;h5&gt;&lt;br&gt;&lt;/h5&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;') [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009067s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009142s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000528s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000570s ]
+
+[ 2016-12-11T21:30:28+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Travel/tralist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000084s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000477s ]
+SQL: SHOW COLUMNS FROM `travel` [ RunTime:0.0014s ]
+SQL: SELECT travel.*,`cat_name` FROM `travel` INNER JOIN cat  ON  travel.cat_id = cat.cat_id    [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011401s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011454s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000167s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000542s ]
+
+[ 2016-12-11T21:52:38+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Travel/traadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001045s ]
+
+[ 2016-12-11T21:52:38+08:00 ] 127.0.0.1 /seeworld/index.php/admin/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008578s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008629s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000884s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000974s ]
+
+[ 2016-12-11T21:52:40+08:00 ] 127.0.0.1 /seeworld/index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002355s ]
+
+[ 2016-12-11T21:52:40+08:00 ] 127.0.0.1 /seeworld/index.php/admin/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005440s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000161s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000564s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000612s ]
+
+[ 2016-12-11T21:52:47+08:00 ] 127.0.0.1 /seeworld/index.php/admin/login/checklogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `admin` WHERE `password` = 'admin' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-12-11T21:52:47+08:00 ] 127.0.0.1 /seeworld/index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007533s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007639s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000685s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000743s ]
+
+[ 2016-12-11T21:52:47+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Index/head.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006025s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006072s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000142s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000519s ]
+
+[ 2016-12-11T21:52:47+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Index/left.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000091s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000542s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000256s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000416s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008619s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008685s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000717s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000787s ]
+
+[ 2016-12-11T21:52:47+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000990s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008784s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008842s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000174s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000766s ]
+
+[ 2016-12-11T21:52:49+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Private/prilist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined variable: articles /Applications/MAMP/htdocs/seeworld/Application/Runtime/Cache/Admin/12d133f0bb9a84f5c09d060e9e42a424.php 第 54 行.
+NOTIC: [8] Undefined variable: page /Applications/MAMP/htdocs/seeworld/Application/Runtime/Cache/Admin/12d133f0bb9a84f5c09d060e9e42a424.php 第 86 行.
+NOTIC: [8] Undefined variable: art /Applications/MAMP/htdocs/seeworld/Application/Runtime/Cache/Admin/12d133f0bb9a84f5c09d060e9e42a424.php 第 125 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008148s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008202s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000147s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000507s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000547s ]
+
+[ 2016-12-11T21:52:52+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Travel/tralist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+SQL: SHOW COLUMNS FROM `travel` [ RunTime:0.0016s ]
+SQL: SELECT travel.*,`cat_name` FROM `travel` INNER JOIN cat  ON  travel.cat_id = cat.cat_id    [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007680s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007730s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000161s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000538s ]
+
+[ 2016-12-11T21:52:54+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Travel/traadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000072s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007058s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007103s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000153s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000533s ]
+
+[ 2016-12-11T21:57:32+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Travel/traadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `travel` [ RunTime:0.0012s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `travel` (`tra_name`,`tra_price`,`tra_ld`,`cat_id`,`tra_limit`,`tra_day`,`tra_lx`,`price_state`,`tra_notice`,`is_vip`,`tra_thumb`,`add_time`) VALUES ('香港直飞慕尼黑德国奥地利皇家度假之旅12天9晚半自由行（精品定制小团，2人成行！游览阿尔卑斯山下的童话世界--德国+奥地利，维也纳一天自由活动，含签证！）','21900','精品定制小团','1','55','12','香港-慕尼黑-富森-贝希特斯加登-萨尔斯堡-哈尔斯塔特-林茨-维也纳-法兰克福','费用包含
+1.机票：香港飞德国往返机票（散客机票含税）
+
+2.酒店：行程中酒店标准双人间住宿
+
+3.用餐：酒店早餐、3个正餐
+
+4.门票：行程内景点首道门票
+
+5.用车：全程安排商务车（自由活动不含车导）
+
+6.导游：当地专业中文导游兼职司机
+
+7.保险：个人旅游意外险
+
+8.签证：个人旅游签证费
+
+ 
+
+费用不含
+1：全程小费
+
+2：前往签证中心的面试或按指模的往返交通费及住宿费
+
+3：因客观原因需要更换上述酒店所产生的房费差价；
+
+4：一切私人费用（例如洗衣、电话、传真、上网、收费电视节目、游戏、宵夜、酒水、邮寄、机场和酒店行李搬运服务、购物、行程列明以外的用餐或宴请等费用）；
+
+5：因个人疏忽、违章或违法引起的经济损失或赔偿费用；
+
+6：行程列明以外的景点或活动所引起的任何费用；
+
+7：因气候或飞机、车辆、船只等交通发生故障导致时间延误或行程更改引起的经济损失和责任；
+
+8：因个人原因滞留产生的一切费用','1：以下价格按照2-6人成团、平日出发（国内外节假日除外）、住宿三星至五星酒店核算，最低2人起成行；
+
+         2：行程均为当地特色旅游线路，除此之外，客人也可选择目的地参团、一日游、单订门票等单项服务的多种组合方式进行预订；
+
+         3：所有航班均可搭配全国联运，具体详询销售落实','1','/Public/upload/2016-12-11/584d5b4c2e2c4.jpeg','1481464652') [ RunTime:0.0004s ]
+
+[ 2016-12-11T21:57:32+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Travel/up.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+SQL: SHOW COLUMNS FROM `travel` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `travel` ORDER BY tra_id desc LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012263s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000734s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001226s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001312s ]
+
+[ 2016-12-11T21:59:29+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Travel/up.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000131s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+SQL: SHOW COLUMNS FROM `traxc` [ RunTime:0.0022s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `traxc` (`tra_name`,`tra_id`,`day_1`,`day_2`,`day_3`,`day_4`,`day_5`,`day_6`,`day_7`,`day_8`,`day_9`,`day_10`,`day_11`,`day_12`) VALUES ('香港直飞慕尼黑德国奥地利皇家度假之旅12天9晚半自由行（精品定制小团，2人成行！游览阿尔卑斯山下的童话世界--德国+奥地','6','&lt;p&gt;香港-慕尼黑&lt;/p&gt;&lt;p&gt;今日准备好行李前往机场，然后搭乘国际航空公司（待定）客机飞往慕尼黑&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;','&lt;p&gt;上午：参观慕尼黑最著名的宝马全球总部的【宝马博物馆】（约１小时３０分），了解德国宝马的发展史，并且参观各种型号的宝马豪车。&lt;br&gt;下午：前往慕尼黑最大广场【玛丽安广场】（约２小时），新市政厅(Neus Rathaus)和旧市政厅(Altes Rathaus)均坐落于此。每日上午11:00，游客们都会聚集在玛丽安广场观看钟楼乐器表演(Glockenspiel Chime)。前往HB啤酒馆品尝当地出名的啤酒盛宴。（约２小时）&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;','&lt;p&gt;上午：我们前往童话中最美丽的城堡--【新天鹅堡】（约３小时）。新天鹅城堡的建立者是巴伐利亚的国王路德维希二世。他亲自参与设计这座城堡，城堡中拥有大量德国天鹅雕塑。新天鹅堡的独特外形激发了许多现代童话城堡的灵感，美国加州迪士尼乐园和香港迪士尼乐园的睡美人城堡的灵感均来自于此。走在【玛丽安桥】（约１小时）上，看新天鹅堡最美的姿态&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;','&lt;p&gt;上午：早餐后前往国王湖，来到南德，就一定要来【国王湖】（约２小时），来到【国王湖】必然要经历的项目就是乘坐电动游船，为了保护周围的环境和水质，国王湖上行驶都除了电动船，就是手划船和脚踏船，&lt;br&gt;下午：之后前往希特勒的豪华别墅【鹰巢】（约２小时），是俯瞰美丽的阿尔卑斯山脉的最佳场所。游览结束之后前往茜茜公主与国王初次相遇的地方【因斯布鲁克】。&lt;br&gt;【活动体验：泛舟国王湖，在青山绿水中游走，郁郁葱葱，俨然是那爱丽丝梦境中的世外桃源】&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;','&lt;p&gt;上午：世界上最美的湖畔小镇--奥地利【哈尔施塔特小镇】（约3个小时），一座簇拥着湖光山色的小镇，漫游这个远离尘嚣依山傍水的清幽小镇，享受阿尔卑斯山浪漫悠闲时光。之后返回萨尔斯堡市区，游览莫扎特故居，在粮食胡同购买正宗的莫扎特巧克力糖球。&lt;br&gt;下午：【米拉贝尔宫】（约2个小时）是一幢白楼，这里曾经是当时的大主教沃尔夫迪特里希为其情人莎乐美而建造，在迪特里希去世后由后继者更名为米拉贝尔宫。如今这里成为了萨尔茨堡的市政厅，主要用于会议、纪念活动和有情调的音乐会。&lt;br&gt;【文化体验：老城享用经典《音乐之声》晚餐或莫扎特音乐晚餐】&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;','&lt;p&gt;全天：【哈尔施塔特湖】是萨尔茨卡默古特地区14个湖泊中最富灵性的观光胜地。湖岸景色迷人，红树黄叶漫山遍野，天鹅水鸭浮游觅食，还有岸边花团锦蔟的咖啡屋，都成为哈尔施塔特最靓丽的一道风景线&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;','&lt;p&gt;上午：在酒店用过早餐，我们前往奥地利最美的湖区和温泉小镇【巴德伊舍】（约2小时）1853年8月19日，弗朗茨•约瑟夫和茜茜公主在此举行订婚仪式。相比萨尔茨堡的热闹繁华和哈尔斯塔特的商业化，这里宁静、淳朴、美丽的小镇，选择在这里停留一下会是不错的回忆。【沃尔夫冈湖区】（约2小时）整个地区由12个大大小小的湖泊串联在一起，宛若珍珠一般。湖被茂密的林带、绿地和陡峭的群山环抱着，是奥地利阿尔卑斯山区最美的湖泊。据说当年莫扎特经常居住在湖边，这片幽蓝恬静的湖水，或许给了音乐天才不少的灵感吧。&lt;br&gt;下午：【富施尔湖】（约1小时）---电影《茜茜公主》的外境地，电影中茜茜公主和弗兰克在此充满浪漫地邂逅。&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;','&lt;p&gt;上午：在酒店用过早餐后，我们在湖区小镇自由活动，&lt;br&gt;下午：而后我们前往奥地利多瑙河沿岸城市【林茨】（约2小时），位于奥地利东北部，参观林茨中央广场，周边大都是巴洛克风格的建筑和文艺复兴风格的庭院&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;','&lt;p&gt;上午：酒店早餐过后，我们前往奥地利首府维也纳&lt;br&gt;下午：参观著名的巴洛克式建筑【美泉宫】（约2个小时）以及充满童真趣味的【茜茜公主博物馆】（约1个小时），晚上安排一场【金色大厅音乐会】（约2个小时30分钟）&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;','&lt;p&gt;酒店早餐过后，奥地利自由活动一整天，充分享受花园城市的魅力。可自行安排行程【圣斯特凡大教堂】已经美丽的【城市花园】，或者可呆在酒店，享受酒店的设施，悠闲一整天&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;','&lt;p&gt;前往机场，导游协助办理退税、登机等手续，送至安检口，然后搭乘国际航班返回目的地&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;','&lt;p&gt;抵达国内，结束美丽的童话小镇之行！&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;') [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008460s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008515s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001225s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001306s ]
+
+[ 2016-12-11T21:59:30+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Travel/tralist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `travel` [ RunTime:0.0017s ]
+SQL: SELECT travel.*,`cat_name` FROM `travel` INNER JOIN cat  ON  travel.cat_id = cat.cat_id    [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000125s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008161s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008208s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000539s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000583s ]
+
+[ 2016-12-11T22:06:21+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Travel/tralist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+SQL: SHOW COLUMNS FROM `travel` [ RunTime:0.0014s ]
+SQL: SELECT travel.*,`cat_name` FROM `travel` INNER JOIN cat  ON  travel.cat_id = cat.cat_id    [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009238s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009303s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000215s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000523s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000564s ]
+
+[ 2016-12-11T22:16:54+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Travel/traadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007456s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007498s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000146s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000509s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2016-12-11T22:27:05+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Travel/traadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+SQL: SHOW COLUMNS FROM `cat` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `cat`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `travel` [ RunTime:0.0015s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `travel` (`tra_name`,`tra_price`,`tra_ld`,`cat_id`,`tra_limit`,`tra_day`,`tra_lx`,`price_state`,`tra_notice`,`is_vip`,`tra_thumb`,`add_time`) VALUES ('中欧巴士循环游','698','中文导游服务 参团时间自由定','3','42','7','法兰克福—苏黎世—卢塞恩—列支敦士登—萨尔茨堡—维也纳—布达佩斯—布拉格—德累斯顿—柏林—法兰克福','费用包含
+往返旅游巴士。
+行程所列酒店住宿费用。
+酒店标准2人间。
+当地中文导游服务。
+儿童价特殊说明：2位成人带一位6岁以下小孩同住双人间，小孩不占床可享受65折优惠价。小孩占床则与成人同价。一位成人带一位小孩，小孩与成人同价。
+费用不含
+因交通延阻、罢工、天气、飞机、机器故障、航班取消或更改时间等不可抗力原因所导致的额外费用。
+酒店内洗衣、理发、电话、传真、收费电视、饮品、烟酒等个人消费。
+以上“费用包含”中不包含的其它项目。
+单房差。
+（1）自费景点门票：客人可以根据自己的意愿选择是否参加。景点门票上团后导游统一收取。
+（2）午餐晚餐：客人可以选择跟团餐或者自己选择当地美食。
+（3）每位客人每天规定最少给司机、导游小费各2欧元（瑞士段3欧）。','1. 此产品欢迎所有国籍的游客购买使用；
+
+2. 蚂蜂窝尊重并保护用户隐私，用户信息只会用于协助用户预订旅游产品；
+
+3. 本产品将通过蚂蜂窝认证商家提供服务；
+
+4. 关于购买：预订订单，需要在支付时限内支付全款，超出时限的支付将被视为无效支付， 需要联系商家退回款项，重新购买。购买成功会收到确认邮件及短信；
+
+5. 关于优惠券：每张优惠券只能使用一次，不能兑换成现金，也不能与其它优惠同享；
+
+6. 当地旅行社提供产品，暂不提供开发票服务；
+
+7. 在当地有任何意外情况或者行程进行中有任何与预订要求不符合的情况，请立即联系确认单上当地服务热线， 服务商会及时处理解决。行程结束后，无法追究责任和补偿退款；
+
+8. 据国家相关法规，若因人力不可抗拒的因素而造成对行程的影响，将协助游客进行解决，但不承担相应损失， 若因此而增加的费用 ，敬请游客自己承担。','1','/Public/upload/2016-12-11/584d62393acd8.jpeg','1481466425') [ RunTime:0.0004s ]
+
+[ 2016-12-11T22:27:05+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Travel/up.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000441s ]
+SQL: SHOW COLUMNS FROM `travel` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `travel` ORDER BY tra_id desc LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006691s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006752s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000502s ]
+
+[ 2016-12-11T22:29:13+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Travel/up.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `traxc` [ RunTime:0.0043s ]
+NOTIC: [8] Undefined index: validate /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto /Applications/MAMP/htdocs/seeworld/ThinkPHP/Library/Think/Model.class.php 第 1128 行.
+SQL: INSERT INTO `traxc` (`tra_name`,`tra_id`,`day_1`,`day_2`,`day_3`,`day_4`,`day_5`,`day_6`,`day_7`) VALUES ('中欧巴士循环游','7','&lt;dl&gt;&lt;dd&gt;[Bahnhof大街]&lt;br&gt;瑞士苏黎世的班霍夫大街是世界上最富有的街道。大街始建于公元前15年罗马统治时期，成为全城最繁华、最“昂贵”的街道之一。&lt;div&gt;&lt;img src=&quot;http://c3-q.mafengwo.net/s9/M00/20/35/wKgBs1gW2aCAbxh4AAIx0hRCnO411.jpeg?imageView2%2F2%2Fw%2F510%2Fh%2F8000%2Fq%2F100&quot;&gt;&lt;/div&gt;&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;i&gt;&lt;/i&gt;&lt;b&gt;&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;[圣母大教堂]&lt;br&gt;由查理大帝的孙子Ludwig der Deutsche日耳曼人路易创办于853年，是一所归正会教堂。现在屹立在苏黎世的这座圣母大教堂是12世纪在原址上面重建的，是具有代表性的哥特式建筑。教堂前面，骑马的男士是当过许多年苏黎世市长的汉斯•瓦尔德曼。&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;i&gt;&lt;/i&gt;&lt;b&gt;&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;[苏黎世大教堂]&lt;br&gt;苏黎世大教堂是瑞士苏黎世的3座主要教堂之一（另外两座是苏黎世圣母大教堂和圣彼得教堂）。教堂位于利马特河河岸附近。今天的教堂始建于1100年前后，约1220年揭幕。根据传说最早的教堂为查理曼创建。苏黎世大教堂是一座修道院教堂，在中世纪与利马特河对面的苏黎世圣母大教堂形成竞争。查理曼的坐骑跪倒在苏黎世主保圣人Felix 和 Regula墓前。根据传说，它早于圣母大教堂，后者由查理曼的孙子所建。最近的考古证据证明此处是罗马人的墓地。&lt;div&gt;&lt;img src=&quot;http://b4-q.mafengwo.net/s9/M00/54/E0/wKgBs1ghbO2AfG-jAALu3xlOue058.jpeg?imageView2%2F2%2Fw%2F510%2Fh%2F8000%2Fq%2F100&quot;&gt;&lt;/div&gt;&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;i&gt;&lt;/i&gt;&lt;b&gt;&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;[苏黎世湖]&lt;br&gt;苏黎世湖是瑞士著名冰蚀湖。苏黎世湖风景极美，沿河畔筑有中世纪式的卵石小径可供游人在湖边散步，还可游泳、野餐、日光浴和乘船游览湖区。&lt;div&gt;&lt;img src=&quot;http://b3-q.mafengwo.net/s9/M00/AF/A0/wKgBs1gPN8mAS27yAAQtjEDbnso37.jpeg?imageView2%2F2%2Fw%2F510%2Fh%2F8000%2Fq%2F100&quot;&gt;&lt;/div&gt;&lt;/dd&gt;&lt;/dl&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;','&lt;dl&gt;&lt;dd&gt;[米拉贝尔花园]&lt;br&gt;这个集聚了罗马雕塑、喷泉、花园、迷宫的巴洛克式花园，曾是知名电影《音乐之声》中，女主角玛丽亚带着孩子们欢唱“Do-Re-Mi”的地方。&lt;div&gt;&lt;img src=&quot;http://n4-q.mafengwo.net/s9/M00/04/94/wKgBs1g7yIKANEqGAAgn9ZCThY800.jpeg?imageView2%2F2%2Fw%2F510%2Fh%2F8000%2Fq%2F100&quot;&gt;&lt;/div&gt;&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;i&gt;&lt;/i&gt;&lt;b&gt;&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;[莫扎特故居]&lt;br&gt;奥地利18世纪著名音乐大师莫扎特出生的地方。馆内陈列着莫扎特生前使用过的小提琴、木琴和钢琴、亲笔写的乐谱、书信以及亲自设计的舞台剧蓝图等。&lt;div&gt;&lt;img src=&quot;http://b1-q.mafengwo.net/s9/M00/9D/A2/wKgBs1g3ooaATH3sAAHUcbnIb1w19.jpeg?imageView2%2F2%2Fw%2F510%2Fh%2F8000%2Fq%2F100&quot;&gt;&lt;/div&gt;&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;i&gt;&lt;/i&gt;&lt;b&gt;&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;[列支敦士登邮票博物馆]&lt;br&gt;列支敦士登邮票博物馆 位于列支敦士登首都瓦杜兹，这个袖珍小国印制的邮票世界闻名，使爱好集邮的人爱不释手。邮票博物馆陈列的邮票之精之多居世界之首。从1912年列支敦士登发行的第一套邮票开始时，已经历了大半个世纪，其所发行的邮票种类和数量，不计其数。&lt;div&gt;&lt;img src=&quot;http://n2-q.mafengwo.net/s9/M00/9D/C6/wKgBs1g3osmAOOcFAAGX1ul5TW417.jpeg?imageView2%2F2%2Fw%2F510%2Fh%2F8000%2Fq%2F100&quot;&gt;&lt;/div&gt;&lt;/dd&gt;&lt;/dl&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;','&lt;dl&gt;&lt;dd&gt;[史蒂芬大教堂]&lt;br&gt;史蒂芬大教堂是维也纳市的标志，也是全世界最著名的哥特式教堂之一。它那一百三十七米高的尖塔是继科隆大教堂之后全世界第二高的教堂尖塔。高高的穹顶，巴洛克式繁复精美的祭坛，让人过目难忘。雕刻华美的大理石柱。恢宏的建筑，配上斑斓的玻璃，让人感觉神圣。游客也可爬上大教堂的南塔，坐电梯上去看普莫林大钟，从塔上可以俯瞰维也纳全城&lt;div&gt;&lt;img src=&quot;http://b1-q.mafengwo.net/s9/M00/9E/9C/wKgBs1g3pBKAb_BKAASpAGic1gs54.jpeg?imageView2%2F2%2Fw%2F510%2Fh%2F8000%2Fq%2F100&quot;&gt;&lt;/div&gt;&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;i&gt;&lt;/i&gt;&lt;b&gt;&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;[奥地利国会大厦]&lt;br&gt;坐落在维也纳的奥地利议会大厦是奥地利国民议会和奥地利联邦议会所在地。&lt;div&gt;&lt;img src=&quot;http://c3-q.mafengwo.net/s9/M00/9E/DA/wKgBs1g3pHWANL_UAAK5QqLe0l458.jpeg?imageView2%2F2%2Fw%2F510%2Fh%2F8000%2Fq%2F100&quot;&gt;&lt;/div&gt;&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;i&gt;&lt;/i&gt;&lt;b&gt;&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;[美泉宫]&lt;br&gt;美泉宫得名于一眼泉水，这里原是一片开阔的绿地。有一次马蒂亚斯皇帝狩猎至此，饮一泉水，心神清爽，便称此泉为美丽泉。1743年，玛丽姬特蕾西亚女王下令在此建宫，这里便出现了气势磅礴的宫殿和巴洛克式花园。面积2.6万平方米，仅次于法国凡尔赛宫，是欧洲第二大宫殿。&lt;div&gt;&lt;img src=&quot;http://a2-q.mafengwo.net/s9/M00/9F/90/wKgBs1g3pYaAS5WbAA5l-MtRnA837.jpeg?imageView2%2F2%2Fw%2F510%2Fh%2F8000%2Fq%2F100&quot;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&quot;http://c1-q.mafengwo.net/s9/M00/28/FF/wKgBs1gufYaAHKgvAAvI3cJhwak209.png?imageView2%2F2%2Fw%2F510%2Fh%2F8000%2Fq%2F100&quot;&gt;&lt;/div&gt;&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;i&gt;&lt;/i&gt;&lt;b&gt;&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;[霍夫堡皇宫]&lt;br&gt;霍夫堡皇宫是奥地利哈布斯堡王朝的宫苑，坐落在首都维也纳的市中心。自1275年至1913年间，经过多次修建、重建，最终才演化成了现在这个由18个翼、19个庭院和2500个房间构成的迷宫。茜茜公主博物馆的六个展厅内陈列着大量来自皇后寝宫的真品和一些服饰的复制品，可以通过这些探寻追寻茜茜公主生活的印迹。&lt;div&gt;&lt;img src=&quot;http://p2-q.mafengwo.net/s8/M00/31/FC/wKgBpVWbbc-AHPRAAAM1DoLwatw51.jpeg?imageView2%2F2%2Fw%2F510%2Fh%2F8000%2Fq%2F100&quot;&gt;&lt;/div&gt;&lt;/dd&gt;&lt;/dl&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;','&lt;dl&gt;&lt;dd&gt;[布达皇宫]&lt;br&gt;雄踞于多瑙河西岸的布达佩斯城堡山之上，是布达佩斯的地标性建筑之一，曾是历代匈牙利王室的居室所在，目前皇宫中心部分已改设为布达佩斯历史博物馆、国家图书馆和国家画廊，对公众开放。&lt;div&gt;&lt;img src=&quot;http://b3-q.mafengwo.net/s9/M00/AA/D5/wKgBs1g3vBWAGtNwAAyk1G1da4s98.jpeg?imageView2%2F2%2Fw%2F510%2Fh%2F8000%2Fq%2F100&quot;&gt;&lt;/div&gt;&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;i&gt;&lt;/i&gt;&lt;b&gt;&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;[渔夫堡]&lt;br&gt;渔人堡是一个新哥特式和新罗曼风格的观景台，位于匈牙利首都布达佩斯布达一侧多瑙河河畔的城堡山，邻近马加什教堂。它修建于1895年到1902年之间，设计师是弗里杰·舒勒克第二次世界大战期间，渔人堡近乎毁灭。1947年至1948年之间，弗里杰·舒勒克的儿子亚诺什·舒勒克负责了修复工程。从塔和观景台，可以看到多瑙河、玛格丽特岛、东面的佩斯，以及盖勒特丘陵的全景。&lt;div&gt;&lt;img src=&quot;http://n3-q.mafengwo.net/s9/M00/3F/47/wKgBs1gJo_mAJBqXAAakEonIBZM58.jpeg?imageView2%2F2%2Fw%2F510%2Fh%2F8000%2Fq%2F100&quot;&gt;&lt;/div&gt;&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;i&gt;&lt;/i&gt;&lt;b&gt;&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;[英雄广场]&lt;br&gt;英雄广场是匈牙利首都布达佩斯的主要广场，位于安德拉什大街（被列为世界遗产）的末端，毗邻城市公园。广场周围有2座重要建筑：左侧的美术博物馆，和右侧的艺术宫。塞尔维亚大使馆也设于此处。英雄广场的中心，是该市的地标—千年纪念碑，刻有在9世纪创建匈牙利的7个部落领袖，以及匈牙利其他历史名人的雕像。&lt;div&gt;&lt;img src=&quot;http://n3-q.mafengwo.net/s9/M00/AA/E9/wKgBs1g3vHCAerOzAATKZ7z5hlM03.jpeg?imageView2%2F2%2Fw%2F510%2Fh%2F8000%2Fq%2F100&quot;&gt;&lt;/div&gt;&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;i&gt;&lt;/i&gt;&lt;b&gt;&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;[马加什教堂]&lt;br&gt;马加什教堂位于多瑙河沿岸，渔人堡一侧。匈牙利国王加冕之处，是城堡山的标志性建筑之一，色泽亮丽，石造尖塔、彩色的马赛克屋顶，匈牙利民俗、新艺术风格和土耳其风格等多种元素，在蓝天的映衬下格外迷人。正如同雨果所形容的，马加什教堂是一座&quot;石头的交响曲&quot;。&lt;div&gt;&lt;img src=&quot;http://b1-q.mafengwo.net/s9/M00/AA/EF/wKgBs1g3vI6AIqLkAAYmZgCjFsM29.jpeg?imageView2%2F2%2Fw%2F510%2Fh%2F8000%2Fq%2F100&quot;&gt;&lt;/div&gt;&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;br&gt;&lt;/dt&gt;&lt;/dl&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;','&lt;dl&gt;&lt;dd&gt;[圣维塔大教堂]&lt;br&gt;圣维塔大教堂（Katedrala sv. Vita）位于维而塔瓦河西岸的布拉格城堡内，是布拉格城堡最重要的地标之一。两座高达82米的新哥特式尖塔夹峙的西立面的外墙经过岁月的洗礼，已显斑驳沧桑之态，但是就像壮士暮年，威仪仍在。圣维特大教堂还因其美丽的彩色玻璃窗而闻名，运气好的话，还能看到阳光通过窗户射进教堂，洒下一片五彩的光晕。&lt;div&gt;&lt;img src=&quot;http://c3-q.mafengwo.net/s9/M00/C1/3C/wKgBs1g36I-ARGC1AAHOWO0BjYM72.jpeg?imageView2%2F2%2Fw%2F510%2Fh%2F8000%2Fq%2F100&quot;&gt;&lt;/div&gt;&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;i&gt;&lt;/i&gt;&lt;b&gt;&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;[布拉格城堡]&lt;br&gt;布拉格城堡位于捷克伏尔塔瓦河的丘陵上，处于整个城市的制高点。从布拉格城堡，可以观赏到整个城市的全景。每当日落时分，七彩的晚霞映在布拉格鲜艳的红色屋顶，构成一幅魅力非凡的油墨画，只要一眼，绝对惊艳万千！&lt;div&gt;&lt;img src=&quot;http://a4-q.mafengwo.net/s9/M00/AB/28/wKgBs1g3vT-AVTGAAAJrhLebs-844.jpeg?imageView2%2F2%2Fw%2F510%2Fh%2F8000%2Fq%2F100&quot;&gt;&lt;/div&gt;&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;i&gt;&lt;/i&gt;&lt;b&gt;&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;[布拉格天文钟]&lt;br&gt;在老旧市政厅的南面墙上的天文钟，聚集着来自世界各地的游客驻足拍照，一同仰望这座已有六百多年历史的大钟。整个钟的造型十分精美，根据当年的地球中心说原理设计。上面的钟一天绕行一圈，下面的一年绕一周，每天中午12点，天文钟上，那十二尊精美的耶酥门徒像从钟旁依次现身，六个向左转，六个向右转，随着一声雄鸡的鸣叫，窗子关闭，报时钟声响起。&lt;div&gt;&lt;img src=&quot;http://n1-q.mafengwo.net/s9/M00/AB/33/wKgBs1g3vWiAXA90AAcRYyGLWmY11.jpeg?imageView2%2F2%2Fw%2F510%2Fh%2F8000%2Fq%2F100&quot;&gt;&lt;/div&gt;&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;i&gt;&lt;/i&gt;&lt;b&gt;&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;[布拉格广场]&lt;br&gt;布拉格是捷克首都，是欧洲最美丽的城市之一 。其最著名的广场是老城广场。 老城广场的中心是扬·胡斯雕像。广场最具特色的古建筑是自鸣钟。布拉格这个名称来自德语，当地称它为布拉哈，意为“门槛”，其原因是伏尔塔瓦河在这里流经一个暗礁，水流湍急，酷似越过一个门槛。&lt;div&gt;&lt;img src=&quot;http://c1-q.mafengwo.net/s9/M00/AB/45/wKgBs1g3vcyAM-39AAt0SlfHHhc47.jpeg?imageView2%2F2%2Fw%2F510%2Fh%2F8000%2Fq%2F100&quot;&gt;&lt;/div&gt;&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;i&gt;&lt;/i&gt;&lt;b&gt;&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;[查理大桥]&lt;br&gt;横跨在伏尔塔瓦河上的查理大桥，连接着两端的布拉格城堡和旧城区。虽然中世纪骑士们走过桥梁的威武场景已经不复存在，而对于慕名前来的游客来说，光是在桥面上漫步徜徉、任自己在氤氲弥漫的历史点滴中投降受俘，也已足够令他们深感满足。&lt;div&gt;&lt;img src=&quot;http://c4-q.mafengwo.net/s9/M00/AB/53/wKgBs1g3vg-ADHw_AAWgEfbtdzs88.jpeg?imageView2%2F2%2Fw%2F510%2Fh%2F8000%2Fq%2F100&quot;&gt;&lt;/div&gt;&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;i&gt;&lt;/i&gt;&lt;b&gt;&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;[黄金小巷]&lt;br&gt;黄金巷（Zlatá ulička）位于布拉格城堡内，是一条受到保护的中世纪风格的小巷。其街名来源于16世纪的炼金术师，传说他们想在这里炼制黄金。整条街相当精致可爱，具有童话般的外观和柔和的色调，小巧的门和窗，低的屋顶和许多烟囱很受游客喜爱。著名的捷克犹太作家卡夫卡在这条街的第22号公寓租住了两年，因为这里有一个安静的写作环境。&lt;div&gt;&lt;img src=&quot;http://n2-q.mafengwo.net/s9/M00/AB/73/wKgBs1g3vlSAdyNyAAH_9K9eVQQ84.jpeg?imageView2%2F2%2Fw%2F510%2Fh%2F8000%2Fq%2F100&quot;&gt;&lt;/div&gt;&lt;/dd&gt;&lt;/dl&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;','&lt;dl&gt;&lt;dd&gt;[博物馆岛]&lt;br&gt;博物馆岛在柏林市中心，由新博物馆、旧国家画廊、佩加蒙博物馆、博德博物馆组成。因位于施普雷河的两条河道的汇合处，故有博物馆岛之称。&lt;div&gt;&lt;img src=&quot;http://n2-q.mafengwo.net/s9/M00/59/1C/wKgBs1g2rciALptQAAE7NfbHv9A55.jpeg?imageView2%2F2%2Fw%2F510%2Fh%2F8000%2Fq%2F100&quot;&gt;&lt;/div&gt;&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;i&gt;&lt;/i&gt;&lt;b&gt;&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;[圣母教堂]&lt;br&gt;始建于1726年，采用了圆形拱顶、砂岩拼建等前所未有的建筑方式，是由木匠大师奥尔格•贝尔主持设计修建的，历时17年方才建成，是世界上最大的砂石建筑。&lt;div&gt;&lt;img src=&quot;http://b4-q.mafengwo.net/s9/M00/B7/A1/wKgBs1g319OAcyajACQqVIm6wjc44.jpeg?imageView2%2F2%2Fw%2F510%2Fh%2F8000%2Fq%2F100&quot;&gt;&lt;/div&gt;&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;i&gt;&lt;/i&gt;&lt;b&gt;&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;[柏林大教堂]&lt;br&gt;基督教路德宗教堂，位于德国柏林市中部博物馆岛的东端。曾是德意志帝国霍亨索伦王朝（Haus Hohenzollern）的宫廷教堂。&lt;div&gt;&lt;img src=&quot;http://p3-q.mafengwo.net/s9/M00/59/2F/wKgBs1g2rd-AOOv3AAK13IIxkNY14.jpeg?imageView2%2F2%2Fw%2F510%2Fh%2F8000%2Fq%2F100&quot;&gt;&lt;/div&gt;&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;i&gt;&lt;/i&gt;&lt;b&gt;&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;[柏林电视塔]&lt;br&gt;建于1965年8月至1969年10月，电视塔塔高368米，在全国首屈一指。&lt;div&gt;&lt;img src=&quot;http://n1-q.mafengwo.net/s9/M00/C3/ED/wKgBs1g37RSAcf1xAASxknsLC1M78.jpeg?imageView2%2F2%2Fw%2F510%2Fh%2F8000%2Fq%2F100&quot;&gt;&lt;/div&gt;&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;i&gt;&lt;/i&gt;&lt;b&gt;&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;[茨温格宫]&lt;br&gt;这里是全德国最引人注目的巴洛克建筑.这座宫殿主要是皇室举办晚宴的地方,尽管他的名字比较奇怪,有好几个入口通向一个喷泉密布的庭院,周围的建筑都装饰着巴洛克式雕塑。&lt;div&gt;&lt;img src=&quot;http://n1-q.mafengwo.net/s8/M00/CC/BE/wKgBpVWfbX2AKiewAAK0Ty8VE7Y06.jpeg?imageView2%2F2%2Fw%2F510%2Fh%2F8000%2Fq%2F100&quot;&gt;&lt;/div&gt;&lt;/dd&gt;&lt;/dl&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;','&lt;dl&gt;&lt;dd&gt;[勃兰登堡门]&lt;br&gt;柏林仅存的城门，最重要的城市标志，象征了德意志的神圣统一，柏林人对勃兰登堡门怀有特殊的感情，称它为“命运之门”,成为柏林乃至德国的标志。&lt;div&gt;&lt;img src=&quot;http://a2-q.mafengwo.net/s9/M00/BE/22/wKgBs1g346eARsSLAAmwR3pOdUU57.jpeg?imageView2%2F2%2Fw%2F510%2Fh%2F8000%2Fq%2F100&quot;&gt;&lt;/div&gt;&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;i&gt;&lt;/i&gt;&lt;b&gt;&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;[国会大厦]&lt;br&gt;柏林国会大厦位于柏林市中心，体现了古典式、哥特式、文艺复兴式和巴罗克式的多种建筑风格，是德国统一的象征。&lt;div&gt;&lt;img src=&quot;http://a3-q.mafengwo.net/s9/M00/39/B3/wKgBs1b6C2aAYGNmAAJqPWYxOhQ06.jpeg?imageView2%2F2%2Fw%2F510%2Fh%2F8000%2Fq%2F100&quot;&gt;&lt;/div&gt;&lt;div&gt;&lt;img src=&quot;http://c4-q.mafengwo.net/s9/M00/BF/27/wKgBs1g35TqAZm5XAAS9YuiVoTc37.jpeg?imageView2%2F2%2Fw%2F510%2Fh%2F8000%2Fq%2F100&quot;&gt;&lt;/div&gt;&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;i&gt;&lt;/i&gt;&lt;b&gt;&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;[柏林墙]&lt;br&gt;德国首都柏林在第二次世界大战以后，德意志民主共和国在己方领土上建立的围墙，目的是隔离东德和德意志联邦共和国。柏林墙的建立，是二战以后德国分裂和冷战的重要标志性建筑。&lt;div&gt;&lt;img src=&quot;http://n4-q.mafengwo.net/s9/M00/C0/2C/wKgBs1g35wOAZnxNAAS6Y481EJ833.jpeg?imageView2%2F2%2Fw%2F510%2Fh%2F8000%2Fq%2F100&quot;&gt;&lt;/div&gt;&lt;/dd&gt;&lt;/dl&gt;&lt;dl&gt;&lt;dt&gt;&lt;i&gt;&lt;/i&gt;&lt;b&gt;&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;[犹太人大屠杀纪念碑群]&lt;br&gt;大屠杀纪念碑群位于柏林市中心，与德国联邦议院和勃兰登堡门近在咫尺，这座纪念纳粹灭绝犹太人历史的最新且最具影响力的建筑物将铭记每一位被德国纳粹屠杀的犹太人。&lt;div&gt;&lt;img src=&quot;http://n4-q.mafengwo.net/s8/M00/51/B4/wKgBpVX1ktGALH0sAAH2jV-gwwI40.jpeg?imageView2%2F2%2Fw%2F510%2Fh%2F8000%2Fq%2F100&quot;&gt;&lt;/div&gt;&lt;/dd&gt;&lt;/dl&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;') [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006228s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006274s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000136s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000602s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000642s ]
+
+[ 2016-12-11T22:29:14+08:00 ] 127.0.0.1 /seeworld/index.php/Admin/Travel/tralist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+SQL: SHOW COLUMNS FROM `travel` [ RunTime:0.0029s ]
+SQL: SELECT travel.*,`cat_name` FROM `travel` INNER JOIN cat  ON  travel.cat_id = cat.cat_id    [ RunTime:0.0033s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008028s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008085s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000173s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000513s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000565s ]
+
